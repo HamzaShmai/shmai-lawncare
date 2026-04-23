@@ -25,11 +25,11 @@ const App = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {/*====== Title ======*/}
-        <title>Gadden - Garden &amp; Landscaping React NextJS Template</title>
+        <title> Shmai Lawn Express &amp; Professional Landscaping Experts </title>
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.ico"
+          href="assets/images/logo/logo-shmai.png"
           type="image/png"
         />
         {/*====== Google Fonts ======*/}
