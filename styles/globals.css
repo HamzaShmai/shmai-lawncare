@@ -1,0 +1,89 @@
+/* @import "slick-carousel/slick/slick.css"; */
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.modal-content {
+  border: 0;
+}
+
+.social-link {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #0B3D2C;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.xeno {
+  color: #46893B;
+  font-weight: bold;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.social-icon:hover {
+  background-color: #2A7D2E;
+}
+
+/* optional thoda premium look */
+.social-icon:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* image popup */
+img.mfp-img {
+  box-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  position: absolute;
+  max-height: 392px;
+  padding: 0 !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mfp-img-container .mfp-content {
+  max-width: 400px !important;
+}
+
+.mfp-img-container .mfp-close {
+  top: -110px;
+  right: -24px;
+}
+
+.project-slider-active .slick-active .project-slider-item .video,
+.project-slider-active .slick-active .project-slider-item .content {
+  opacity: 1;
+  -webkit-transform: translate(0);
+  -ms-transform: translate(0);
+  transform: translate(0);
+}
+
+.project-slider-item {
+  display: flex !important;
+}
+
+.project-three-active .project-item-three {
+  margin: 0;
+}
+
+.active-scroll-top {
+  display: inline-block;
+}
