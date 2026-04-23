@@ -63,7 +63,7 @@ const Footer3 = () => {
                     <ul className="info-list">
                       <li>558 Main Street, 2nd Block Melbourne, Australia</li>
                       <li>
-                        <a href="mailto:support@gmail.com">support@gmail.com</a>
+                        <a href="mailto:support@gmail.com">shmai.com@gmail.com</a>
                       </li>
                       <li>
                         <a href="tel:+000(123)45688">+000 (123) 456 88</a>
@@ -178,7 +178,7 @@ const Footer3 = () => {
               <div className="col-lg-6">
                 {/*====== Copyright Text ======*/}
                 <div className="copyright-text">
-                  <p>Copy© 2023 Gadden. All Rights Reserved.</p>
+                  <p>Copy© 2026 Shmai Lawn Express. All Rights Reserved.</p>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -186,14 +186,12 @@ const Footer3 = () => {
                 <div className="copyright-nav float-lg-right">
                   <ul>
                     <li>
-                      <a href="#">Setting &amp; Privacy</a>
+                      <a href="#">Privacy &amp; Policy</a>
                     </li>
                     <li>
-                      <a href="#">Faqs</a>
+                      <a href="#">Terms & Condition</a>
                     </li>
-                    <li>
-                      <a href="#">Food Menu</a>
-                    </li>
+
                   </ul>
                 </div>
               </div>

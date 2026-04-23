@@ -39,10 +39,10 @@ const Index3 = () => {
                         🌿 Professional Landscaping Experts
                       </span>
                       <h1 data-animation="fadeInDown" data-delay=".5s">
-                        Premium Gardening & Landscape Design Solutions
+                        Transform Your Outdoor Space
                       </h1>
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        Transform Your Outdoor Space with Expert Gardening, Lawn Care, and Creative Landscaping Services – 100% Customer Satisfaction Guaranteed
+                        Expert gardening, lawn care, and creative landscaping solutions tailored to your vision.
                       </p>
                       <div
                         className="hero-button mb-30"
@@ -51,12 +51,12 @@ const Index3 = () => {
                       >
                         <Link legacyBehavior href="/about">
                           <a className="main-btn secondary-btn mb-10">
-                            Get Free Gardening Consultation →
+                            Free Consultation →
                           </a>
                         </Link>
                         <Link legacyBehavior href="/">
                           <a className="main-btn filled-btn filled-white mb-10">
-                            Watch How Our Landscaping Works
+                            See How It Works
                           </a>
                         </Link>
                       </div>

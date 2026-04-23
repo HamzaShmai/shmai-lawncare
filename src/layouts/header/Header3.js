@@ -162,7 +162,7 @@ const Header3 = () => {
         </div>
         <MobileMenu
           handleShow={handleShow}
-          logo="assets/images/logo/logo-shmai.png"
+          logo="assets/images/logo/logo-shmai3.png"
           extraClass={"main-bg navigation-white"}
           barIcon="assets/images/bar2.png"
         />
