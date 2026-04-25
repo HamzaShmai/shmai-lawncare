@@ -21,9 +21,9 @@ const Footer1 = () => {
                     </Link>
                   </div>
                   <p>
-                    Quis autem eum reprehenderit volutate velit quam molestiae
-                    conseuatur{" "}
+                    We provide professional lawn care, landscaping, and gardening services to transform your outdoor spaces into beautiful, sustainable environments.
                   </p>
+
                   <form
                     onSubmit={(e) => e.preventDefault()}
                     className="search-box"

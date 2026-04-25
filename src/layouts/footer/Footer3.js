@@ -44,8 +44,7 @@ const Footer3 = () => {
                       </Link>
                     </div>
                     <p>
-                      Quis autem eum reprehenderit volutate velit quam molestiae
-                      conseuatur{" "}
+                      We provide professional lawn care, landscaping, and gardening services to transform your outdoor spaces into beautiful, sustainable environments.
                     </p>
                     <Link legacyBehavior href="/contact">
                       <a className="main-btn filled-btn filled-white">
