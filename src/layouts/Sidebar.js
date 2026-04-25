@@ -20,15 +20,13 @@ const Sidebar = ({ show, handleClose }) => {
                   <Link legacyBehavior href="/">
                     <a className="footer-logo">
                       <img
-                        src="assets/images/logo/logo-white.png"
+                        src="assets/images/logo/logo-shmai.png"
                         alt="Brand Logo"
                       />
                     </a>
                   </Link>
                   <p>
-                    Sed ut perspiciatis unde omni natus voluptatem accusantium
-                    doloremque laudantium aperia maquep quae abillo inventore
-                    veritatis architecto
+                    We provide professional lawn care, landscaping, and gardening services to transform your outdoor spaces into beautiful, sustainable environments.
                   </p>
                   <div className="social-item">
                     <h6>Follow Us</h6>

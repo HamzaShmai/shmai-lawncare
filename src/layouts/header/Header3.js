@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaXTwitter } from "react-icons/fa6";
 import { Fragment, useState } from "react";
 import SearchModal from "../SearchModal";
 import Sidebar from "../Sidebar";
@@ -56,7 +57,7 @@ const Header3 = () => {
                     </li>
                     <li>
                       <a href="#" class="social-icon">
-                        <i class="fab fa-twitter"></i>
+                        <FaXTwitter />
                       </a>
                     </li>
                     <li>
