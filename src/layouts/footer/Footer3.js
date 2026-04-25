@@ -78,16 +78,16 @@ const Footer3 = () => {
                   <div className="widget-content">
                     <ul className="footer-nav">
                       <li>
-                        <a href="#">About Company</a>
+                        <Link href="/about">About Company</Link>
                       </li>
                       <li>
-                        <a href="#">Popular Services</a>
+                        <Link href="/service">Popular Services</Link>
                       </li>
                       <li>
-                        <a href="#">Need a Career ?</a>
+                        <Link href="/career">Need a Career?</Link>
                       </li>
                       <li>
-                        <a href="#">Meet Our Team</a>
+                        <Link href="/team">Meet Our Team</Link>
                       </li>
                     </ul>
                   </div>
@@ -177,7 +177,7 @@ const Footer3 = () => {
               <div className="col-lg-6">
                 {/*====== Copyright Text ======*/}
                 <div className="copyright-text">
-                  <p>Copy© 2023 Gadden. All Rights Reserved.</p>
+                  <p>Copy© 2026 Shmai Lawn Express. All Rights Reserved.</p>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -190,9 +190,7 @@ const Footer3 = () => {
                     <li>
                       <a href="#">Faqs</a>
                     </li>
-                    <li>
-                      <a href="#">Food Menu</a>
-                    </li>
+
                   </ul>
                 </div>
               </div>
