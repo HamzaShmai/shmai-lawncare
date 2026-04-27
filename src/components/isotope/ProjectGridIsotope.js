@@ -44,9 +44,9 @@ const ProjectGridIsotope = () => {
             <div className="section-title mb-40">
               <span className="sub-title">
                 <i className="flaticon-plant" />
-                Photo Gallery
+                Lawn Service Website Portfolio
               </span>
-              <h2>Popular Photo Gallery Inside Our Garden</h2>
+              <p>Showcasing modern, high-performing websites built specifically for lawn care and landscaping businesses.</p>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ const ProjectGridIsotope = () => {
             {/*====== Gallery Item ======*/}
             <div className="single-project-item-three mb-30 wow fadeInDown">
               <div className="project-img">
-                <img src="assets/images/gallery/gl-8.jpg" alt="Gallery Image" />
+                <img src="assets/images/products/project3.png" alt="Gallery Image" />
                 <div className="hover-overlay">
                   <Link legacyBehavior href="/project-details">
                     <a className="icon-btn">
@@ -125,7 +125,7 @@ const ProjectGridIsotope = () => {
             {/*====== Gallery Item ======*/}
             <div className="single-project-item-three mb-30 wow fadeInUp">
               <div className="project-img">
-                <img src="assets/images/gallery/gl-9.jpg" alt="Gallery Image" />
+                <img src="assets/images/products/project3.png" alt="Portfilio projects" />
                 <div className="hover-overlay">
                   <Link legacyBehavior href="/project-details">
                     <a className="icon-btn">
@@ -153,7 +153,7 @@ const ProjectGridIsotope = () => {
             <div className="single-project-item-three mb-30 wow fadeInDown">
               <div className="project-img">
                 <img
-                  src="assets/images/gallery/gl-10.jpg"
+                  src="assets/images/products/projecrt1.png"
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
@@ -183,7 +183,7 @@ const ProjectGridIsotope = () => {
             <div className="single-project-item-three mb-30 wow fadeInLeft">
               <div className="project-img">
                 <img
-                  src="assets/images/gallery/gl-11.jpg"
+                  src="assets/images/products/project4.png"
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
@@ -213,7 +213,7 @@ const ProjectGridIsotope = () => {
             <div className="single-project-item-three mb-30 wow fadeInDown">
               <div className="project-img">
                 <img
-                  src="assets/images/gallery/gl-12.jpg"
+                 src="assets/images/products/project5.png"
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
@@ -243,7 +243,7 @@ const ProjectGridIsotope = () => {
             <div className="single-project-item-three mb-30 wow fadeInRight">
               <div className="project-img">
                 <img
-                  src="assets/images/gallery/gl-13.jpg"
+                  src="assets/images/products/project6.png"
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
@@ -268,96 +268,7 @@ const ProjectGridIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-2 cat-3">
-            {/*====== Gallery Item ======*/}
-            <div className="single-project-item-three mb-30 wow fadeInUp">
-              <div className="project-img">
-                <img
-                  src="assets/images/gallery/gl-14.jpg"
-                  alt="Gallery Image"
-                />
-                <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
-                    <a className="icon-btn">
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                  <div className="hover-content text-white">
-                    <div className="text">
-                      <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
-                          <a>Garden Caring</a>
-                        </Link>
-                      </h3>
-                      <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-5">
-            {/*====== Gallery Item ======*/}
-            <div className="single-project-item-three mb-30 wow fadeInDown">
-              <div className="project-img">
-                <img
-                  src="assets/images/gallery/gl-15.jpg"
-                  alt="Gallery Image"
-                />
-                <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
-                    <a className="icon-btn">
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                  <div className="hover-content text-white">
-                    <div className="text">
-                      <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
-                          <a>Garden Caring</a>
-                        </Link>
-                      </h3>
-                      <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-1">
-            {/*====== Gallery Item ======*/}
-            <div className="single-project-item-three mb-30 wow fadeInUp">
-              <div className="project-img">
-                <img
-                  src="assets/images/gallery/gl-16.jpg"
-                  alt="Gallery Image"
-                />
-                <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
-                    <a className="icon-btn">
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                  <div className="hover-content text-white">
-                    <div className="text">
-                      <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
-                          <a>Garden Caring</a>
-                        </Link>
-                      </h3>
-                      <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
     </section>

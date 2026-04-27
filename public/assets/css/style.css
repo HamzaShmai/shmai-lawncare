@@ -49,6 +49,17 @@
 .sidebar-widget-area .widget-newsletter .sidebar-content .form_control::-ms-input-placeholder {
   color: #0B3D2C;
 }
+.project-img img {
+  height: 500px!important;
+  object-fit: cover!important;
+  object-position: top!important;
+}
+.project-img {
+  position: relative!important;
+  height: 500px!important;
+  overflow: hidden!important;
+}
+
 
 .footer-gallery-widget .gallery-list li a .hover-overlay i,
 .footer-experience-widget .experience-box-two h2.number,

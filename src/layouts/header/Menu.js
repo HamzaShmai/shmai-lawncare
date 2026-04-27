@@ -38,7 +38,7 @@ const Menu = () => {
         </li>
         <li className="menu-item has-children">
           <a href="#">
-            Portfolio
+            portfolio
             <span className="dd-trigger">
               <i className="far fa-angle-down" />
             </span>
@@ -49,21 +49,7 @@ const Menu = () => {
                 Project Grid
               </Link>
             </li>
-            <li>
-              <Link legacyBehavior href="project-grid-2-column">
-                Project Grid Two
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="project-masonry">
-                Project Masonry
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="project-details">
-                Project Details
-              </Link>
-            </li>
+
           </ul>
         </li>
         <li className="menu-item has-children">

@@ -84,7 +84,7 @@ const Footer3 = () => {
                         <Link href="/service">Popular Services</Link>
                       </li>
                       <li>
-                        <Link href="/career">Need a Career?</Link>
+                        <Link href="/project-grid">Need a Career?</Link>
                       </li>
                       <li>
                         <Link href="/team">Meet Our Team</Link>

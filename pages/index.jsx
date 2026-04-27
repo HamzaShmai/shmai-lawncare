@@ -643,7 +643,8 @@ const Index3 = () => {
             {/*====== Project Item ======*/}
             <div className="single-project-item-two">
               <div className="project-img">
-                <img src="assets/images/gallery/gl-4.jpg" alt="Gallery Image" />
+                <img src="assets/images/products/project3.png" alt="Gallery Image" />
+
                 <div className="project-overlay">
                   <a href="#" className="icon-btn">
                     <i className="far fa-arrow-right" />
@@ -662,7 +663,8 @@ const Index3 = () => {
             {/*====== Project Item ======*/}
             <div className="single-project-item-two">
               <div className="project-img">
-                <img src="assets/images/gallery/gl-5.jpg" alt="Gallery Image" />
+                <img src="assets/images/products/project2.png" alt="Gallery Image" />
+
                 <div className="project-overlay">
                   <a href="#" className="icon-btn">
                     <i className="far fa-arrow-right" />
@@ -681,7 +683,8 @@ const Index3 = () => {
             {/*====== Project Item ======*/}
             <div className="single-project-item-two">
               <div className="project-img">
-                <img src="assets/images/gallery/gl-6.jpg" alt="Gallery Image" />
+                <img src="assets/images/products/project4.png" alt="Gallery Image" />
+
                 <div className="project-overlay">
                   <a href="#" className="icon-btn">
                     <i className="far fa-arrow-right" />
@@ -700,7 +703,8 @@ const Index3 = () => {
             {/*====== Project Item ======*/}
             <div className="single-project-item-two">
               <div className="project-img">
-                <img src="assets/images/gallery/gl-7.jpg" alt="Gallery Image" />
+                <img src="assets/images/products/project5.png" alt="Gallery Image" />
+
                 <div className="project-overlay">
                   <a href="#" className="icon-btn">
                     <i className="far fa-arrow-right" />
@@ -719,7 +723,8 @@ const Index3 = () => {
             {/*====== Project Item ======*/}
             <div className="single-project-item-two">
               <div className="project-img">
-                <img src="assets/images/gallery/gl-6.jpg" alt="Gallery Image" />
+                <img src="assets/images/products/project6.png" alt="Gallery Image" />
+
                 <div className="project-overlay">
                   <a href="#" className="icon-btn">
                     <i className="far fa-arrow-right" />
