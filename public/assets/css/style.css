@@ -49,15 +49,17 @@
 .sidebar-widget-area .widget-newsletter .sidebar-content .form_control::-ms-input-placeholder {
   color: #0B3D2C;
 }
+
 .project-img img {
-  height: 500px!important;
-  object-fit: cover!important;
-  object-position: top!important;
+  height: 500px !important;
+  object-fit: cover !important;
+  object-position: top !important;
 }
+
 .project-img {
-  position: relative!important;
-  height: 500px!important;
-  overflow: hidden!important;
+  position: relative !important;
+  height: 500px !important;
+  overflow: hidden !important;
 }
 
 
@@ -9108,6 +9110,14 @@ ul.slick-dots li.slick-active {
   line-height: 29px;
   border-radius: 20px;
   margin-bottom: 20px;
+}
+
+.brand-logo img {
+  height: 110px;
+}
+
+.footer-logo a img {
+  height: 110px;
 }
 
 .sidebar-panel-wrapper .sidebar-wrapper .sidebar-gallery {
