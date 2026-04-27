@@ -36,27 +36,30 @@ const Index3 = () => {
                         data-animation="fadeInUp"
                         data-delay=".4s"
                       >
-                        🌿 Professional Landscaping Experts
+                        Lawn Care Website Redesign Experts
                       </span>
+
                       <h1 data-animation="fadeInDown" data-delay=".5s">
-                        Premium Gardening & Landscape Design Solutions
-                      </h1>
+                        Upgrade Your Lawn Website for More Clients                      </h1>
+
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        Transform Your Outdoor Space with Expert Gardening, Lawn Care, and Creative Landscaping Services – 100% Customer Satisfaction Guaranteed
+                        At LawnLift Studio, we redesign lawn care and mowing websites to improve design, speed, and conversions — helping you get more calls, leads, and bookings without changing your business.
                       </p>
+
                       <div
                         className="hero-button mb-30"
                         data-animation="fadeInDown"
                         data-delay=".7s"
                       >
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/contact">
                           <a className="main-btn primary-btn mb-10">
-                            Get Free Gardening Consultation →
+                            Get Free Website Audit →
                           </a>
                         </Link>
-                        <Link legacyBehavior href="/">
+
+                        <Link legacyBehavior href="/portfolio">
                           <a className="main-btn filled-btn filled-white mb-10 shmai">
-                            Watch How Our Landscaping Works
+                            View Before & After Results
                           </a>
                         </Link>
                       </div>
@@ -85,27 +88,31 @@ const Index3 = () => {
                         data-animation="fadeInUp"
                         data-delay=".4s"
                       >
-                        Beautiful Gardening
+                        🌱 Helping Lawn Businesses Grow Online
                       </span>
+
                       <h1 data-animation="fadeInDown" data-delay=".5s">
-                        Lawn Care
+                        Fix Your Website. Get More Calls & Leads.
                       </h1>
+
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        Expert Lawn Care &amp; Professional Landscaping Services
+                        We improve your existing lawn care website with modern design, faster speed, and better user experience — so your visitors turn into real customers.
                       </p>
+
                       <div
                         className="hero-button mb-30"
                         data-animation="fadeInDown"
                         data-delay=".7s"
                       >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn mb-1">
-                            Explore More
+                        <Link legacyBehavior href="/contact">
+                          <a className="main-btn primary-btn mb-10">
+                            Request Free Redesign Plan →
                           </a>
                         </Link>
-                        <Link legacyBehavior href="/">
+
+                        <Link legacyBehavior href="/portfolio">
                           <a className="main-btn filled-btn filled-white mb-10 shmai">
-                            How It Work
+                            See Our Work
                           </a>
                         </Link>
                       </div>
