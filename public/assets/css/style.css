@@ -910,6 +910,10 @@ textarea.form_control {
   .section-title h2 {
     font-size: 27px;
   }
+
+  .brand-logo img {
+    height: 80px;
+  }
 }
 
 /*===== All Bg =====*/
