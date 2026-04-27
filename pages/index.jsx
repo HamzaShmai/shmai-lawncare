@@ -88,7 +88,7 @@ const Index3 = () => {
                         data-animation="fadeInUp"
                         data-delay=".4s"
                       >
-                        🌱 Helping Lawn Businesses Grow Online
+                        Helping Lawn Businesses Grow Online
                       </span>
 
                       <h1 data-animation="fadeInDown" data-delay=".5s">
