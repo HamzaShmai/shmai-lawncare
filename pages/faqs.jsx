@@ -9,51 +9,62 @@ import { Accordion } from "react-bootstrap";
 const Faqs = () => {
   const faqsData1 = [
     {
-      title: "What Is Gardening?",
-      content: "Gardening is the practice of growing and cultivating plants as part of horticulture. It includes ornamental plants, fruits, vegetables, and herbs for beautification or consumption."
+      title: "What does LawnLift do?",
+      content:
+        "LawnLift builds website solutions for lawn care businesses including custom websites, SEO, online booking, and lead generation optimization."
     },
     {
-      title: "How Much Time to Do Better Gardening?",
-      content: "Regular gardening requires 2-4 hours per week for maintenance. However, initial setup may take more time. Consistency is key to achieving beautiful results."
+      title: "How long does a website project take?",
+      content:
+        "Most LawnLift website projects are delivered in 7-14 business days depending on your content readiness, service complexity, and revision speed."
     },
     {
-      title: "Landscaping For Tree Plants?",
-      content: "Tree landscaping involves strategic placement of trees to enhance property aesthetics, provide shade, and improve environmental conditions. We plan each tree's location carefully."
+      title: "Do you support booking and payments?",
+      content:
+        "Yes. We can set up online booking forms and payment integration so your customers can schedule and pay directly from your website."
     },
     {
-      title: "How Much Cost Gardening?",
-      content: "Gardening costs vary based on property size, services needed, and plant selection. Basic maintenance starts at $50/month while full landscaping projects range from $500-$5000."
+      title: "How much does LawnLift cost?",
+      content:
+        "Pricing depends on project scope. We offer starter packages and custom solutions based on your goals, service area, and growth targets."
     },
     {
-      title: "Why We Build Gardening & Landscaping?",
-      content: "Gardening and landscaping increase property value, improve mental well-being, create beautiful outdoor spaces, and contribute positively to the environment."
+      title: "Can you redesign my existing site?",
+      content:
+        "Absolutely. We can redesign your current website while keeping important content and improving conversion flow, speed, and local SEO."
     },
   ];
 
   const faqsData2 = [
     {
-      title: "How About Our Team Member?",
-      content: "Our team consists of certified horticulturists, landscape designers, and experienced gardeners who bring years of expertise to every project."
+      title: "Do you provide ongoing support?",
+      content:
+        "Yes. LawnLift offers maintenance and support plans to keep your site secure, updated, and running smoothly."
     },
     {
-      title: "What Rules Are Followed To Build a Garden?",
-      content: "We follow soil testing guidelines, proper plant spacing rules, sun exposure requirements, water management practices, and local building codes for structures."
+      title: "Will my site rank on Google?",
+      content:
+        "We build your website with local SEO best practices and can provide ongoing SEO services to improve search visibility over time."
     },
     {
-      title: "Residential Gardening?",
-      content: "Residential gardening services include lawn care, flower bed maintenance, pruning, weeding, mulching, and seasonal cleanup for private homes."
+      title: "Do you work with new lawn startups?",
+      content:
+        "Yes. We help both new and established lawn businesses build a professional online presence and generate consistent leads."
     },
     {
-      title: "Commercial Gardening?",
-      content: "Commercial gardening covers office complexes, retail spaces, hotels, and corporate campuses with professional landscape maintenance and design services."
+      title: "Can I request content updates later?",
+      content:
+        "Yes. You can request updates to services, prices, areas, and pages anytime through our support workflow."
     },
     {
-      title: "We Provide Transportation?",
-      content: "Yes, we provide full transportation of equipment, plants, and materials to and from your property for all scheduled gardening services."
+      title: "Do you manage Google Business Profile too?",
+      content:
+        "Yes. We optimize your Google Business Profile to help improve map visibility and local customer inquiries."
     },
     {
-      title: "What Is Sustainable Gardening?",
-      content: "Sustainable gardening uses eco-friendly practices like water conservation, composting, native plants, and organic pest control to protect the environment."
+      title: "How do I get started with LawnLift?",
+      content:
+        "Use the contact page to share your business details, current website status, and goals. We will send a tailored proposal with next steps."
     },
   ];
 
@@ -61,7 +72,10 @@ const Faqs = () => {
 
   return (
     <Layout>
-      <PageBanner pageName={"FAQs"} />
+      <PageBanner
+        pageName={"FAQs"}
+        description={"Answers about LawnLift website solutions for lawn care businesses."}
+      />
       <section className="faq-section pt-95">
         <div className="container">
           <Accordion

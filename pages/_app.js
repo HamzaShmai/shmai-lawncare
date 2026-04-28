@@ -14,6 +14,7 @@ const App = ({ Component, pageProps }) => {
     <Fragment>
       <Head>
         {/*====== Required meta tags ======*/}
+        <base href="/" />
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta

@@ -27,7 +27,7 @@ const Footer3 = () => {
         </div>
         <div className="container">
           {/*====== Footer Widget ======*/}
-          <div className="footer-widget-area pt-55 pb-40 p-r z-1">
+          <div className="footer-widget-area pt-55  p-r z-1">
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-12">
                 {/*====== Footer Widget ======*/}
@@ -43,9 +43,7 @@ const Footer3 = () => {
                         </a>
                       </Link>
                     </div>
-                    <p>
-                      We provide professional lawn care, landscaping, and gardening services to transform your outdoor spaces into beautiful, sustainable environments.
-                    </p>
+                    <p>We build websites & SEO for lawn care businesses to grow online.</p>
                     <Link legacyBehavior href="/contact">
                       <a className="main-btn filled-btn filled-white">
                         Contact Us
@@ -62,10 +60,10 @@ const Footer3 = () => {
                     <ul className="info-list">
                       <li>558 Main Street, 2nd Block Melbourne, Australia</li>
                       <li>
-                        <a href="mailto:support@gmail.com">support@gmail.com</a>
+                        <a href="mailto:info@shmai.com">info@shmai.com</a>
                       </li>
                       <li>
-                        <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                        <a href="tel:+000(123)45688">+92 300-9669339</a>
                       </li>
                     </ul>
                   </div>
@@ -84,10 +82,16 @@ const Footer3 = () => {
                         <Link href="/service">Popular Services</Link>
                       </li>
                       <li>
-                        <Link href="/project-grid">Need a Career?</Link>
+                        <Link href="/portfolio">Need a Career?</Link>
                       </li>
                       <li>
-                        <Link href="/team">Meet Our Team</Link>
+                        <Link href="/contact">Get a Quote</Link>
+                      </li>
+                      <li>
+                        <Link href="/privacy-policy">Privacy Policy</Link>
+                      </li>
+                      <li>
+                        <Link href="/terms-and-conditions">Terms and Conditions</Link>
                       </li>
                     </ul>
                   </div>
@@ -185,10 +189,10 @@ const Footer3 = () => {
                 <div className="copyright-nav float-lg-right">
                   <ul>
                     <li>
-                      <a href="#">Setting &amp; Privacy</a>
+                      <Link href="/privacy-policy">Privacy Policy</Link>
                     </li>
                     <li>
-                      <a href="#">Faqs</a>
+                      <Link href="/terms-and-conditions">Terms & Conditions</Link>
                     </li>
 
                   </ul>

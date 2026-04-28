@@ -11,7 +11,10 @@ const ProductDetails = () => {
   const [cart, setCart] = useState(1);
   return (
     <Layout>
-      <PageBanner pageName={"Product Details"} />
+      <PageBanner
+        pageName={"Product Details"}
+        description={"LawnLift digital product details for lawn business growth."}
+      />
       {/*====== Start Shop Details Section ======*/}
       <section className="shop-details-section pt-100 pb-60">
         <div className="container">
@@ -24,7 +27,7 @@ const ProductDetails = () => {
               <div className="col-lg-6">
                 <div className="product-info mb-50 pl-lg-70 wow fadeInRight">
                   <h4 className="title">
-                    Narcissus Flower Watering Can Arrangement
+                    LawnLift Starter Website Kit
                   </h4>
                   <ul className="ratings">
                     <li>
@@ -47,14 +50,14 @@ const ProductDetails = () => {
                     </li>
                   </ul>
                   <span className="price">
-                    <span className="currency">$</span>232.00
+                    <span className="currency">$</span>149.00
                   </span>
                   <p>
-                    This comprehensive yard cleaning package includes complete debris removal, leaf blowing,
-                    weed pulling, hedge trimming, and garden bed maintenance for properties up to 5,000 sq ft.
+                    This starter kit includes a responsive lawn business homepage, core service sections,
+                    contact form setup, and conversion-focused content structure.
                   </p>
                   <p>
-                    Perfect for homeowners seeking professional care without the hassle of weekend yard work.
+                    Perfect for lawn care businesses that need a professional online presence quickly.
                   </p>
                   <div className="product-cart mt-20 mb-30">
                     <ul>
@@ -92,11 +95,11 @@ const ProductDetails = () => {
                   <ul className="product-meta pb-35 mb-40">
                     <li>
                       <span>Categories</span>
-                      <a href="#">Restaurant</a>
+                      <a href="#">Website Templates</a>
                     </li>
                     <li>
                       <span>Tags</span>
-                      <a href="#">Pizza, Burger, Soup</a>
+                      <a href="#">LawnLift, SEO, Leads</a>
                     </li>
                   </ul>
                   <ul className="social-link">
@@ -172,27 +175,26 @@ const ProductDetails = () => {
                       >
                         <div className="content-box">
                           <p>
-                            We take pride in delivering exceptional gardening services that transform ordinary yards into
-                            stunning outdoor landscapes. Our experienced team uses premium equipment and eco-friendly products
-                            to ensure every project exceeds client expectations. From initial consultation to final cleanup,
-                            we maintain the highest standards of quality and professionalism throughout the entire process.
+                            LawnLift products are designed for lawn service owners who want more leads,
+                            better conversion rates, and a faster digital setup. Every product includes
+                            practical assets built for real local service businesses.
                           </p>
                           <p>
-                            Customer satisfaction is our top priority, which is why we offer personalized solutions tailored
-                            to your specific property needs and budget requirements.
+                            We focus on clear messaging, booking-ready layouts, and local search visibility
+                            so your website can support long-term growth.
                           </p>
                           <ul className="check-style-one">
                             <li>
                               <i className="far fa-check" />
-                              Experienced Gardening Professionals
+                              Conversion-first website structure
                             </li>
                             <li>
                               <i className="far fa-check" />
-                              Awards Winning &amp; Professional Team Members
+                              Lawn niche content and layout strategy
                             </li>
                             <li>
                               <i className="far fa-check" />
-                              Tree Plantations &amp; Landscaping Services
+                              Built for SEO and lead generation
                             </li>
                           </ul>
                         </div>
@@ -203,33 +205,25 @@ const ProductDetails = () => {
                       >
                         <div className="content-box">
                           <p>
-                            Sorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Tortor nulla id neque scelerisque pulvinar.
-                            amet interdum turpis consequat adipiscing. Elementum
-                            feugiat sed duis consectetur varius et cras mattis.
-                            Lobortis auctor sit in eu nisl fusce augue
-                            venenatis, dui. Phasellus eget sagittis mauris, nibh
-                            augue ristique amet sollicitudin sit nulla aliquam,
-                            imperdiet sed ut diam uspendisse
+                            Delivery includes responsive page structure, editable content blocks, CTA
+                            placement, and conversion-ready section flow.
                           </p>
                           <p>
-                            Dictum ultrices et suspendisse amet mattis
-                            pellentesque utate arcu consectetur odio donec nec
-                            duis ultrices facilisi. Mauris cursus elit diam,
-                            urna suspendisse et amet. Vitae ligula{" "}
-                          </p>{" "}
+                            Product setup can be expanded with optional booking tools, local SEO, and
+                            Google Business optimization services.
+                          </p>
                           <ul className="check-style-one">
                             <li>
                               <i className="far fa-check" />
-                              We’re Experience Gardening
+                              Mobile-optimized design
                             </li>
                             <li>
                               <i className="far fa-check" />
-                              Awards Winning &amp; Professional Team Member
+                              Fast-loading page setup
                             </li>
                             <li>
                               <i className="far fa-check" />
-                              Tree Plantations &amp; Landscaping
+                              Scalable for paid ad traffic
                             </li>
                           </ul>
                         </div>
@@ -237,33 +231,25 @@ const ProductDetails = () => {
                       <Tab.Pane className="tab-pane" eventKey="reviews">
                         <div className="content-box">
                           <p>
-                            Sorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Tortor nulla id neque scelerisque pulvinar.
-                            amet interdum turpis consequat adipiscing. Elementum
-                            feugiat sed duis consectetur varius et cras mattis.
-                            Lobortis auctor sit in eu nisl fusce augue
-                            venenatis, dui. Phasellus eget sagittis mauris, nibh
-                            augue ristique amet sollicitudin sit nulla aliquam,
-                            imperdiet sed ut diam uspendisse
+                            Lawn business owners report improved trust and higher inquiry rates after
+                            upgrading from generic templates to LawnLift pages.
                           </p>
                           <p>
-                            Dictum ultrices et suspendisse amet mattis
-                            pellentesque utate arcu consectetur odio donec nec
-                            duis ultrices facilisi. Mauris cursus elit diam,
-                            urna suspendisse et amet. Vitae ligula{" "}
-                          </p>{" "}
+                            Use this kit as your foundation, then add booking workflows and SEO for
+                            compounding monthly growth.
+                          </p>
                           <ul className="check-style-one">
                             <li>
                               <i className="far fa-check" />
-                              We’re Experience Gardening
+                              Better local conversion flow
                             </li>
                             <li>
                               <i className="far fa-check" />
-                              Awards Winning &amp; Professional Team Member
+                              Stronger trust positioning
                             </li>
                             <li>
                               <i className="far fa-check" />
-                              Tree Plantations &amp; Landscaping
+                              Flexible upgrade options
                             </li>
                           </ul>
                         </div>

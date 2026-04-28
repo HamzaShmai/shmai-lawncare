@@ -5,7 +5,10 @@ import Link from "next/link";
 const Shop = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Shop"} />
+      <PageBanner
+        pageName={"Digital Shop"}
+        description={"LawnLift website growth products for lawn care businesses."}
+      />
       {/*====== Start Shop section ======*/}
       <section className="shop-page-section pt-95 pb-60">
         <div className="container">
@@ -17,7 +20,7 @@ const Shop = () => {
                   <div className="col-md-7">
                     {/*====== Show Text ======*/}
                     <div className="show-text mb-20">
-                      <h6>Showing Results 09 Of 55</h6>
+                      <h6>Showing Results 08 Of 08</h6>
                     </div>
                   </div>
                   <div className="col-md-5">
@@ -50,11 +53,11 @@ const Shop = () => {
                       <div className="product-info">
                         <h4>
                           <Link legacyBehavior href="/product-details">
-                            <a>Narcissus Flower Watering Can Arrangement</a>
+                            <a>LawnLift Starter Website Kit</a>
                           </Link>
                         </h4>
                         <span className="price">
-                          <span className="currency">$</span>256.00
+                          <span className="currency">$</span>149.00
                         </span>
                       </div>
                     </div>
@@ -71,11 +74,11 @@ const Shop = () => {
                       <div className="product-info">
                         <h4>
                           <Link legacyBehavior href="/product-details">
-                            <a>Narcissus Flower Watering Can Arrangement</a>
+                            <a>Booking & Payment Setup Pack</a>
                           </Link>
                         </h4>
                         <span className="price">
-                          <span className="currency">$</span>256.00
+                          <span className="currency">$</span>199.00
                         </span>
                       </div>
                     </div>
@@ -92,11 +95,11 @@ const Shop = () => {
                       <div className="product-info">
                         <h4>
                           <Link legacyBehavior href="/product-details">
-                            <a>Gardening Tools and Flower Pot</a>
+                            <a>Local SEO Booster Package</a>
                           </Link>
                         </h4>
                         <span className="price">
-                          <span className="currency">$</span>256.00
+                          <span className="currency">$</span>249.00
                         </span>
                       </div>
                     </div>
@@ -114,11 +117,11 @@ const Shop = () => {
                       <div className="product-info">
                         <h4>
                           <Link legacyBehavior href="/product-details">
-                            <a>Bucket with Grass and One Water Can</a>
+                            <a>Google Business Optimization Kit</a>
                           </Link>
                         </h4>
                         <span className="price">
-                          <span className="currency">$</span>256.00
+                          <span className="currency">$</span>99.00
                         </span>
                       </div>
                     </div>
@@ -136,11 +139,11 @@ const Shop = () => {
                       <div className="product-info">
                         <h4>
                           <Link legacyBehavior href="/product-details">
-                            <a>Yellow Recycling Bin With Plastic</a>
+                            <a>Website Care & Support Plan</a>
                           </Link>
                         </h4>
                         <span className="price">
-                          <span className="currency">$</span>256.00
+                          <span className="currency">$</span>89.00
                         </span>
                       </div>
                     </div>
@@ -157,11 +160,11 @@ const Shop = () => {
                       <div className="product-info">
                         <h4>
                           <Link legacyBehavior href="/product-details">
-                            <a>Garden Tools isolated on White</a>
+                            <a>Lead Generation Funnel Setup</a>
                           </Link>
                         </h4>
                         <span className="price">
-                          <span className="currency">$</span>256.00
+                          <span className="currency">$</span>179.00
                         </span>
                       </div>
                     </div>
@@ -178,11 +181,11 @@ const Shop = () => {
                       <div className="product-info">
                         <h4>
                           <Link legacyBehavior href="/product-details">
-                            <a>Clay Pot With Wooden Rake and Shovel</a>
+                            <a>Lawn Business Content Bundle</a>
                           </Link>
                         </h4>
                         <span className="price">
-                          <span className="currency">$</span>256.00
+                          <span className="currency">$</span>129.00
                         </span>
                       </div>
                     </div>
@@ -200,11 +203,11 @@ const Shop = () => {
                       <div className="product-info">
                         <h4>
                           <Link legacyBehavior href="/product-details">
-                            <a>Succulent Plant in a Plastic Pot</a>
+                            <a>Conversion Landing Page Pack</a>
                           </Link>
                         </h4>
                         <span className="price">
-                          <span className="currency">$</span>256.00
+                          <span className="currency">$</span>159.00
                         </span>
                       </div>
                     </div>
@@ -270,35 +273,35 @@ const Shop = () => {
                 </div>
                 {/*=== Category Widget ===*/}
                 <div className="sidebar-widget widget-category gray-bg mb-40 wow fadeInUp">
-                  <h4 className="widget-title">Category</h4>
+                    <h4 className="widget-title">Category</h4>
                   <ul>
                     <li>
                       <a href="#">
-                        Plant Plastic Pot
+                        Website Templates
                         <i className="far fa-angle-double-right" />
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        Green Grass Wall Texture
+                        Booking Automation
                         <i className="far fa-angle-double-right" />
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        Houseplant Crassula Hobbit
+                        Local SEO
                         <i className="far fa-angle-double-right" />
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        Bucket With Grass
+                        Google Business
                         <i className="far fa-angle-double-right" />
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        Cleaning Products
+                        Lead Generation
                         <i className="far fa-angle-double-right" />
                       </a>
                     </li>
@@ -307,8 +310,8 @@ const Shop = () => {
                 {/*=== Banner Widget ===*/}
                 <div className="sidebar-widget widget-banner mb-40 wow fadeInUp">
                   <div className="banner-content text-white">
-                    <h3 className="title">Looking For Special Gardener!</h3>
-                    <p>You’re in right place</p>
+                    <h3 className="title">Need More Lawn Leads?</h3>
+                    <p>LawnLift builds websites that grow your bookings.</p>
                     <Link legacyBehavior href="/contact">
                       <a className="main-btn secondary-btn">Contact Us</a>
                     </Link>
@@ -321,13 +324,13 @@ const Shop = () => {
                 {/*=== Tag Widget ===*/}
                 <div className="sidebar-widget widget-tag-cloud mb-40 wow fadeInUp">
                   <h4 className="widget-title">Tags</h4>
-                  <a href="#">Gardening</a>
-                  <a href="#">Landscaping</a>
-                  <a href="#">Plants</a>
-                  <a href="#">Trimming</a>
-                  <a href="#">Yard</a>
-                  <a href="#">Yard Maintenance</a>
-                  <a href="#">Tree</a>
+                  <a href="#">Website</a>
+                  <a href="#">SEO</a>
+                  <a href="#">Booking</a>
+                  <a href="#">Google Business</a>
+                  <a href="#">Leads</a>
+                  <a href="#">Conversion</a>
+                  <a href="#">LawnLift</a>
                 </div>
               </div>
             </div>

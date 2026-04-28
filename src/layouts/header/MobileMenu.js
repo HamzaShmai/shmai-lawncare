@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
+import { lawnliftServices } from "@/src/data/services";
 const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
   const [toggle, setToggle] = useState(false);
 
@@ -73,23 +74,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                         <i className="far fa-angle-down" />
                       </span>
                     </a>
-                    <ul className="sub-menu" style={activeSubMenu("home")}>
-                      <li>
-                        <Link legacyBehavior href="/">
-                          Home 01
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="index-2">
-                          Home 02
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="index-3">
-                          Home 03
-                        </Link>
-                      </li>
-                    </ul>
+               
                   </li>
                   <li className="menu-item">
                     <Link legacyBehavior href="about">
@@ -108,15 +93,17 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </a>
                     <ul className="sub-menu" style={activeSubMenu("Service")}>
                       <li>
-                        <Link legacyBehavior href="service">
+                        <Link legacyBehavior href="/service">
                           Our Service
                         </Link>
                       </li>
-                      <li>
-                        <Link legacyBehavior href="service-details">
-                          Service Details
-                        </Link>
-                      </li>
+                      {lawnliftServices.map((service) => (
+                        <li key={service.slug}>
+                          <Link legacyBehavior href={`/service/${service.slug}`}>
+                            {service.title}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </li>
                   <li className="menu-item has-children">
@@ -187,11 +174,6 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </a>
                     <ul className="sub-menu" style={activeSubMenu("Pages")}>
                       <li>
-                        <Link legacyBehavior href="team">
-                          Our Team
-                        </Link>
-                      </li>
-                      <li>
                         <Link legacyBehavior href="shop">
                           Our Shop
                         </Link>
@@ -204,11 +186,6 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                       <li>
                         <Link legacyBehavior href="testimonials">
                           Testimonial
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="pricing">
-                          Pricing
                         </Link>
                       </li>
                       <li>

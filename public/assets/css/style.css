@@ -49,6 +49,12 @@
 .sidebar-widget-area .widget-newsletter .sidebar-content .form_control::-ms-input-placeholder {
   color: #0B3D2C;
 }
+.duahaseeb{
+position:sticky;
+height: 100%;
+width: 100%;
+top: 0px;
+}
 .features-thumb-item-two .thumb img {
   width: 100%;
   border-radius: 20px 20px 0 0;

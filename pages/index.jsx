@@ -339,7 +339,7 @@ const Index3 = () => {
           <i className="flaticon-agriculture" />
         </div>
         <h4 className="title">
-          <Link legacyBehavior href="/service-details">
+          <Link legacyBehavior href="/service/custom-lawn-websites">
             <a>Custom Lawn Websites</a>
           </Link>
         </h4>
@@ -358,7 +358,7 @@ const Index3 = () => {
           <i className="flaticon-field-1" />
         </div>
         <h4 className="title">
-          <Link legacyBehavior href="/service-details">
+          <Link legacyBehavior href="/service/booking-payment">
             <a>Booking & Payment</a>
           </Link>
         </h4>
@@ -377,7 +377,7 @@ const Index3 = () => {
           <i className="flaticon-farming" />
         </div>
         <h4 className="title">
-          <Link legacyBehavior href="/service-details">
+          <Link legacyBehavior href="/service/lawn-business-seo">
             <a>Lawn Business SEO</a>
           </Link>
         </h4>
@@ -396,7 +396,7 @@ const Index3 = () => {
           <i className="flaticon-park" />
         </div>
         <h4 className="title">
-          <Link legacyBehavior href="/service-details">
+          <Link legacyBehavior href="/service/google-business">
             <a>Google Business</a>
           </Link>
         </h4>
@@ -415,7 +415,7 @@ const Index3 = () => {
           <i className="flaticon-rake" />
         </div>
         <h4 className="title">
-          <Link legacyBehavior href="/service-details">
+          <Link legacyBehavior href="/service/maintenance-support">
             <a>Maintenance & Support</a>
           </Link>
         </h4>
@@ -434,7 +434,7 @@ const Index3 = () => {
           <i className="flaticon-growth-1" />
         </div>
         <h4 className="title">
-          <Link legacyBehavior href="/service-details">
+          <Link legacyBehavior href="/service/lead-generation">
             <a>Lead Generation</a>
           </Link>
         </h4>
@@ -875,7 +875,7 @@ const Index3 = () => {
               />
               <h6>
                 <span>By</span>
-                <Link legacyBehavior href="/blog-details">
+                <Link legacyBehavior href="/blog/how-to-get-more-lawn-care-customers-online">
                   <a>Michael</a>
                 </Link>
               </h6>
@@ -898,18 +898,18 @@ const Index3 = () => {
           <div className="entry-content">
             <div className="post-meta">
               <span className="date">
-                <Link legacyBehavior href="/blog-details">
+                <Link legacyBehavior href="/blog/why-your-lawn-business-needs-online-booking">
                   <a>05 February 2024</a>
                 </Link>
               </span>
               <span className="comment">
-                <Link legacyBehavior href="/blog-details">
+                <Link legacyBehavior href="/blog/why-your-lawn-business-needs-online-booking">
                   <a>8 Comments</a>
                 </Link>
               </span>
             </div>
             <h4 className="entry-title">
-              <Link legacyBehavior href="/blog-details">
+              <Link legacyBehavior href="/blog/why-your-lawn-business-needs-online-booking">
                 <a>Why Your Lawn Business Needs Online Booking</a>
               </Link>
             </h4>
@@ -920,7 +920,7 @@ const Index3 = () => {
               />
               <h6>
                 <span>By</span>
-                <Link legacyBehavior href="/blog-details">
+                <Link legacyBehavior href="/blog/why-your-lawn-business-needs-online-booking">
                   <a>Sarah</a>
                 </Link>
               </h6>
@@ -943,18 +943,18 @@ const Index3 = () => {
           <div className="entry-content">
             <div className="post-meta">
               <span className="date">
-                <Link legacyBehavior href="/blog-details">
+                <Link legacyBehavior href="/blog/top-seo-tips-for-lawn-mowing-companies">
                   <a>20 March 2024</a>
                 </Link>
               </span>
               <span className="comment">
-                <Link legacyBehavior href="/blog-details">
+                <Link legacyBehavior href="/blog/top-seo-tips-for-lawn-mowing-companies">
                   <a>15 Comments</a>
                 </Link>
               </span>
             </div>
             <h4 className="entry-title">
-              <Link legacyBehavior href="/blog-details">
+              <Link legacyBehavior href="/blog/top-seo-tips-for-lawn-mowing-companies">
                 <a>Top SEO Tips for Lawn Mowing Companies</a>
               </Link>
             </h4>
@@ -965,7 +965,7 @@ const Index3 = () => {
               />
               <h6>
                 <span>By</span>
-                <Link legacyBehavior href="/blog-details">
+                <Link legacyBehavior href="/blog/top-seo-tips-for-lawn-mowing-companies">
                   <a>David</a>
                 </Link>
               </h6>

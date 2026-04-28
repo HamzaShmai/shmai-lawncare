@@ -27,12 +27,12 @@ const Header3 = () => {
                   <span>
                     <i className="far fa-envelope" />
 
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:info@shmai.com">info@shmai.com</a>
                   </span>
                   <span>
                     <i className="far fa-phone-plus" />
 
-                    <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                    <a href="tel:+92 300-9669339">+92 300-9669339</a>
                   </span>
                   <span>
                     <i className="far fa-map-marker-alt" />

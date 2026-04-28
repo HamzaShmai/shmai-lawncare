@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { lawnliftServices } from "@/src/data/services";
 
 const Menu = () => {
   return (
@@ -24,33 +25,22 @@ const Menu = () => {
             </span>
           </a>
           <ul className="sub-menu">
-            <li>
-              <Link legacyBehavior href="service">
-                Our Service
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="service-details">
-                Service Details
-              </Link>
-            </li>
+          
+            {lawnliftServices.map((service) => (
+              <li key={service.slug}>
+                <Link legacyBehavior href={`/service/${service.slug}`}>
+                  {service.title}
+                </Link>
+              </li>
+            ))}
           </ul>
         </li>
         <li className="menu-item has-children">
-          <a href="#">
+          <a href="/portfolio">
             portfolio
-            <span className="dd-trigger">
-              <i className="far fa-angle-down" />
-            </span>
+           
           </a>
-          <ul className="sub-menu">
-            <li>
-              <Link legacyBehavior href="project-grid">
-                Project Grid
-              </Link>
-            </li>
-
-          </ul>
+          
         </li>
         <li className="menu-item has-children">
           <a href="#">
@@ -65,11 +55,7 @@ const Menu = () => {
                 Blog Standard
               </Link>
             </li>
-            <li>
-              <Link legacyBehavior href="blog-details">
-                Blog Details
-              </Link>
-            </li>
+           
           </ul>
         </li>
         <li className="menu-item has-children">
@@ -81,28 +67,14 @@ const Menu = () => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Link legacyBehavior href="team">
-                Our Team
-              </Link>
-            </li>
-            <li>
               <Link legacyBehavior href="shop">
                 Our Shop
               </Link>
             </li>
-            <li>
-              <Link legacyBehavior href="product-details">
-                Product Details
-              </Link>
-            </li>
+           
             <li>
               <Link legacyBehavior href="testimonials">
                 Testimonial
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="pricing">
-                Pricing
               </Link>
             </li>
             <li>

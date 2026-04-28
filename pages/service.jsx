@@ -135,9 +135,9 @@ const Service = () => {
               <div className="section-title text-white text-center mb-50 wow fadeInDown">
                 <span className="sub-title">
                   <i className="flaticon-plant" />
-                  Popular Services
+                  LawnLift Services
                 </span>
-                <h2>We Care Your Garden &amp; Landscape</h2>
+                <h2>Website Solutions for LawnExpress Businesses</h2>
               </div>
             </div>
           </div>
@@ -153,13 +153,13 @@ const Service = () => {
                     <i className="flaticon-agriculture" />
                   </div>
                   <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Yard Cleaning</a>
+                    <Link legacyBehavior href="/service/custom-lawn-websites">
+                      <a>Custom Lawn Websites</a>
                     </Link>
                   </h4>
                 </div>
                 <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/custom-lawn-websites">
                     <a className="icon-btn">
                       <i className="far fa-plus" />
                     </a>
@@ -182,13 +182,13 @@ const Service = () => {
                     <i className="flaticon-field-1" />
                   </div>
                   <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Garden Makeup</a>
+                    <Link legacyBehavior href="/service/booking-payment">
+                      <a>Booking &amp; Payment</a>
                     </Link>
                   </h4>
                 </div>
                 <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/booking-payment">
                     <a className="icon-btn">
                       <i className="far fa-plus" />
                     </a>
@@ -211,13 +211,13 @@ const Service = () => {
                     <i className="flaticon-farming" />
                   </div>
                   <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Landscaping</a>
+                    <Link legacyBehavior href="/service/lawn-business-seo">
+                      <a>Lawn Business SEO</a>
                     </Link>
                   </h4>
                 </div>
                 <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/lawn-business-seo">
                     <a className="icon-btn">
                       <i className="far fa-plus" />
                     </a>
@@ -240,13 +240,13 @@ const Service = () => {
                     <i className="flaticon-park" />
                   </div>
                   <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Lawn Mowing</a>
+                    <Link legacyBehavior href="/service/google-business">
+                      <a>Google Business</a>
                     </Link>
                   </h4>
                 </div>
                 <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/google-business">
                     <a className="icon-btn">
                       <i className="far fa-plus" />
                     </a>
@@ -269,13 +269,13 @@ const Service = () => {
                     <i className="flaticon-rake" />
                   </div>
                   <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Decorative Plants</a>
+                    <Link legacyBehavior href="/service/maintenance-support">
+                      <a>Maintenance &amp; Support</a>
                     </Link>
                   </h4>
                 </div>
                 <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/maintenance-support">
                     <a className="icon-btn">
                       <i className="far fa-plus" />
                     </a>
@@ -298,13 +298,13 @@ const Service = () => {
                     <i className="flaticon-growth-1" />
                   </div>
                   <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Yard Maintaince</a>
+                    <Link legacyBehavior href="/service/lead-generation">
+                      <a>Lead Generation</a>
                     </Link>
                   </h4>
                 </div>
                 <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/lead-generation">
                     <a className="icon-btn">
                       <i className="far fa-plus" />
                     </a>
