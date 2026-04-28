@@ -25,7 +25,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img
-                    src={logo ? logo : "assets/images/logo/logo-shmai.png"}
+                    src={logo ? logo : "assets/images/logo/hello.png"}
                     alt="Site Logo"
                   />
                 </a>
@@ -38,7 +38,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
                     <img
-                      src={"assets/images/logo/logo-shmai3.png"}
+                      src={"assets/images/logo/hello.png"}
                       alt="Site Logo"
                     />
                   </a>
@@ -92,11 +92,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                       </span>
                     </a>
                     <ul className="sub-menu" style={activeSubMenu("Service")}>
-                      <li>
-                        <Link legacyBehavior href="/service">
-                          Our Service
-                        </Link>
-                      </li>
+                     
                       {lawnliftServices.map((service) => (
                         <li key={service.slug}>
                           <Link legacyBehavior href={`/service/${service.slug}`}>
@@ -109,35 +105,9 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                   <li className="menu-item has-children">
                     <a href="#">
                       Portfolio
-                      <span
-                        className="dd-trigger"
-                        onClick={() => active("Portfolio")}
-                      >
-                        <i className="far fa-angle-down" />
-                      </span>
+                     
                     </a>
-                    <ul className="sub-menu" style={activeSubMenu("Portfolio")}>
-                      <li>
-                        <Link legacyBehavior href="project-grid">
-                          Project Grid
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="project-grid-2-column">
-                          Project Grid Two
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="project-masonry">
-                          Project Masonry
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="project-details">
-                          Project Details
-                        </Link>
-                      </li>
-                    </ul>
+               
                   </li>
                   <li className="menu-item has-children">
                     <a href="#">
@@ -150,11 +120,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                       </span>
                     </a>
                     <ul className="sub-menu" style={activeSubMenu("Blog")}>
-                      <li>
-                        <Link legacyBehavior href="blog-standard">
-                          Blog Standard
-                        </Link>
-                      </li>
+                    
                       <li>
                         <Link legacyBehavior href="blog-details">
                           Blog Details
@@ -178,16 +144,8 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                           Our Shop
                         </Link>
                       </li>
-                      <li>
-                        <Link legacyBehavior href="product-details">
-                          Product Details
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="testimonials">
-                          Testimonial
-                        </Link>
-                      </li>
+                      
+                     
                       <li>
                         <Link legacyBehavior href="faqs">
                           Faq

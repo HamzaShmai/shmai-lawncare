@@ -126,116 +126,7 @@ const Index3 = () => {
       </section>
       {/*====== End Banner Section ======*/}
       {/*====== Start Features Section ======*/}
-      <section className="features-section pt-95">
-  <div className="container">
-    <div className="row align-items-xl-center">
-      <div className="col-lg-6">
-        <div className="section-title mb-55 wow fadeInLeft">
-          <span className="sub-title">
-            <i className="flaticon-plant" />
-            Why Choose Us
-          </span>
-          <h2>We Help Lawn Care Businesses Go Digital</h2>
-        </div>
-      </div>
-      <div className="col-lg-6">
-        <div className="features-content-box mb-55 wow fadeInRight">
-          <p>
-            Stop losing customers to competitors with better websites. We create digital solutions that help lawn mowing and landscaping businesses get found online, book more jobs, and grow faster.
-          </p>
-          <Link legacyBehavior href="/about">
-            <a className="btn-link">
-              Learn More
-              <i className="far fa-angle-double-right" />
-            </a>
-          </Link>
-        </div>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-xl-3 col-md-6 col-sm-12">
-        <div
-          className="features-thumb-item-two mb-40 wow fadeInDown"
-          data-wow-delay=".2s"
-        >
-          <div className="thumb">
-            <img
-              src="assets/images/products/google.jpg"
-              alt="Image"
-            />
-          </div>
-          <div className="text">
-            <div className="icon">
-              <i className="flaticon-landscape-1" />
-            </div>
-            <h5 className="title">Get Found on Google</h5>
-            <p>Appear at the top when customers search for lawn mowing near you and beat local competitors.</p>
-          </div>
-        </div>
-      </div>
-      <div className="col-xl-3 col-md-6 col-sm-12">
-        <div
-          className="features-thumb-item-two mb-40 wow fadeInUp"
-          data-wow-delay=".25s"
-        >
-          <div className="thumb">
-            <img
-              src="assets/images/products/booking.png"
-              alt="Image"
-            />
-          </div>
-          <div className="text">
-            <div className="icon">
-              <i className="flaticon-watering-can" />
-            </div>
-            <h5 className="title">Book Jobs 24/7</h5>
-            <p>Customers can schedule and pay for lawn services anytime, even when you're sleeping or on a job.</p>
-          </div>
-        </div>
-      </div>
-      <div className="col-xl-3 col-md-6 col-sm-12">
-        <div
-          className="features-thumb-item-two mb-40 wow fadeInDown"
-          data-wow-delay=".3s"
-        >
-          <div className="thumb">
-            <img
-              src="assets/images/products/after.jpg"
-              alt="Image"
-            />
-          </div>
-          <div className="text">
-            <div className="icon">
-              <i className="flaticon-lawnmower" />
-            </div>
-            <h5 className="title">Showcase Your Work</h5>
-            <p>Display before/after photos of lawns and gardens to build trust and win more customers.</p>
-          </div>
-        </div>
-      </div>
-      <div className="col-xl-3 col-md-6 col-sm-12">
-        <div
-          className="features-thumb-item-two mb-40 wow fadeInUp"
-          data-wow-delay=".35s"
-        >
-          <div className="thumb">
-            <img
-              src="assets/images/products/images.jpg"
-              alt="Image"
-            />
-          </div>
-          <div className="text">
-            <div className="icon">
-              <i className="flaticon-spider-plant" />
-            </div>
-            <h5 className="title">Grow Your Business</h5>
-            <p>Get more leads, more bookings, and more repeat customers with a website that works for you.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    
       {/*====== End Features Section ======*/}
       {/*====== Start About Section ======*/}
       <section className="about-bg-section">
@@ -434,8 +325,8 @@ const Index3 = () => {
           <i className="flaticon-growth-1" />
         </div>
         <h4 className="title">
-          <Link legacyBehavior href="/service/lead-generation">
-            <a>Lead Generation</a>
+          <Link legacyBehavior href="/service/crm-for-lawn-care">
+            <a>CRM for Lawn Care</a>
           </Link>
         </h4>
         <p>Contact forms WhatsApp buttons and CTAs that convert visitors into paying lawn care customers automatically.</p>
@@ -445,6 +336,116 @@ const Index3 = () => {
 </div>
         </div>
       </section>
+        <section className="features-section pt-95">
+  <div className="container">
+    <div className="row align-items-xl-center">
+      <div className="col-lg-6">
+        <div className="section-title mb-55 wow fadeInLeft">
+          <span className="sub-title">
+            <i className="flaticon-plant" />
+            Why Choose Us
+          </span>
+          <h2>We Help Lawn Care Businesses Go Digital</h2>
+        </div>
+      </div>
+      <div className="col-lg-6">
+        <div className="features-content-box mb-55 wow fadeInRight">
+          <p>
+            Stop losing customers to competitors with better websites. We create digital solutions that help lawn mowing and landscaping businesses get found online, book more jobs, and grow faster.
+          </p>
+          <Link legacyBehavior href="/about">
+            <a className="btn-link">
+              Learn More
+              <i className="far fa-angle-double-right" />
+            </a>
+          </Link>
+        </div>
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-xl-3 col-md-6 col-sm-12">
+        <div
+          className="features-thumb-item-two mb-40 wow fadeInDown"
+          data-wow-delay=".2s"
+        >
+          <div className="thumb">
+            <img
+              src="assets/images/products/google.jpg"
+              alt="Image"
+            />
+          </div>
+          <div className="text">
+            <div className="icon">
+              <i className="flaticon-landscape-1" />
+            </div>
+            <h5 className="title">Get Found on Google</h5>
+            <p>Appear at the top when customers search for lawn mowing near you and beat local competitors.</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-xl-3 col-md-6 col-sm-12">
+        <div
+          className="features-thumb-item-two mb-40 wow fadeInUp"
+          data-wow-delay=".25s"
+        >
+          <div className="thumb">
+            <img
+              src="assets/images/products/booking.png"
+              alt="Image"
+            />
+          </div>
+          <div className="text">
+            <div className="icon">
+              <i className="flaticon-watering-can" />
+            </div>
+            <h5 className="title">Book Jobs 24/7</h5>
+            <p>Customers can schedule and pay for lawn services anytime, even when you're sleeping or on a job.</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-xl-3 col-md-6 col-sm-12">
+        <div
+          className="features-thumb-item-two mb-40 wow fadeInDown"
+          data-wow-delay=".3s"
+        >
+          <div className="thumb">
+            <img
+              src="assets/images/products/after.jpg"
+              alt="Image"
+            />
+          </div>
+          <div className="text">
+            <div className="icon">
+              <i className="flaticon-lawnmower" />
+            </div>
+            <h5 className="title">Showcase Your Work</h5>
+            <p>Display before/after photos of lawns and gardens to build trust and win more customers.</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-xl-3 col-md-6 col-sm-12">
+        <div
+          className="features-thumb-item-two mb-40 wow fadeInUp"
+          data-wow-delay=".35s"
+        >
+          <div className="thumb">
+            <img
+              src="assets/images/products/images.jpg"
+              alt="Image"
+            />
+          </div>
+          <div className="text">
+            <div className="icon">
+              <i className="flaticon-spider-plant" />
+            </div>
+            <h5 className="title">Grow Your Business</h5>
+            <p>Get more leads, more bookings, and more repeat customers with a website that works for you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       {/*====== End Service Section ======*/}
       {/*====== Start Skills Section  ======*/}
       <section className="skills-section pt-100 pb-50">

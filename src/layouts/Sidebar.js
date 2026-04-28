@@ -71,7 +71,7 @@ const Sidebar = ({ show, handleClose }) => {
                       Email Us
                     </h6>
                     <p>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:support@gmail.com">info@shmai.com</a>
                     </p>
                   </div>
                   <div className="contact-info-item-two">
@@ -80,7 +80,7 @@ const Sidebar = ({ show, handleClose }) => {
                       Hotline
                     </h6>
                     <p>
-                      <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="tel:+92 300-9669339">+92 300-9669339</a>
                     </p>
                   </div>
                 </div>

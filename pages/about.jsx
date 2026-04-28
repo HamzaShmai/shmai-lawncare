@@ -48,17 +48,17 @@ const About = () => {
     <div className="row justify-content-center">
       <div className="col-lg-4 col-md-6 col-sm-6">
         <div className="about-img-item mb-30 wow fadeInUp">
-          <img src="assets/images/about/about-3.jpg" alt="About Image" />
+          <img src="assets/images/products/ourmis.jpg" alt="About Image" />
         </div>
       </div>
       <div className="col-lg-4 col-md-6 col-sm-6">
         <div className="about-img-item mb-30 wow fadeInDown">
-          <img src="assets/images/about/about-4.jpg" alt="About Image" />
+          <img src="assets/images/products/build.jpg" alt="About Image" />
         </div>
       </div>
       <div className="col-lg-4 col-md-6 col-sm-6">
         <div className="about-img-item mb-30 wow fadeInUp">
-          <img src="assets/images/about/about-5.jpg" alt="About Image" />
+          <img src="assets/images/products/keyworf.jpg" alt="About Image" />
         </div>
       </div>
     </div>
@@ -154,7 +154,7 @@ const About = () => {
     <div
       className="features-bg bg_cover"
       style={{
-        backgroundImage: "url(assets/images/bg/features-bg-1.jpg)",
+        backgroundImage: "url(assets/images/products/after.jpg)",
       }}
     />
     <div className="features-bgc-content-box main-bg text-white wow fadeInRight">
@@ -301,7 +301,7 @@ const About = () => {
       <div className="col-lg-7">
         {/*======  CTA Image Box  ======*/}
         <div className="cta-image-box mb-50 wow fadeInRight">
-          <img src="assets/images/gallery/cta-1.jpg" alt="Image" />
+          <img src="assets/images/products/custom.jpg" alt="Image" />
         </div>
       </div>
     </div>

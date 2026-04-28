@@ -5,11 +5,11 @@ export const lawnliftServices = [
     shortDescription:
       "Professional responsive websites for lawn mowing and landscaping businesses that attract more customers online.",
     sidebarIcon: "flaticon-agriculture",
-    mainImage: "assets/images/service/single-service-1.jpg",
+    mainImage: "assets/images/products/webwa.jpg",
     galleryImages: [
-      "assets/images/service/single-service-2.jpg",
-      "assets/images/service/single-service-3.jpg",
-      "assets/images/service/single-service-4.jpg",
+      "assets/images/products/build.jpg",
+      "assets/images/products/review.jpg",
+      "assets/images/products/custom.jpg",
     ],
     intro:
       "LawnLift builds conversion-focused websites made specifically for lawn care businesses. Every page is designed to showcase your services, build trust quickly, and turn local visitors into booked jobs.",
@@ -50,11 +50,11 @@ export const lawnliftServices = [
     shortDescription:
       "Easy online booking and payment integration so customers can schedule and pay for lawn services directly.",
     sidebarIcon: "flaticon-field-1",
-    mainImage: "assets/images/service/single-service-1.jpg",
+    mainImage: "assets/images/products/bookinga.jpg",
     galleryImages: [
-      "assets/images/service/single-service-2.jpg",
+      "assets/images/products/reminder.jpg",
       "assets/images/service/single-service-3.jpg",
-      "assets/images/service/single-service-4.jpg",
+      "assets/images/products/checkout.jpg",
     ],
     intro:
       "LawnLift integrates a simple booking and payment flow that works 24/7 for your lawn business. Customers can choose a service, pick a date, and pay without calling or waiting.",
@@ -95,11 +95,11 @@ export const lawnliftServices = [
     shortDescription:
       "Rank higher on Google and get more local customers searching for lawn mowing and yard care services.",
     sidebarIcon: "flaticon-farming",
-    mainImage: "assets/images/service/single-service-1.jpg",
+    mainImage: "assets/images/products/seo.jpg",
     galleryImages: [
-      "assets/images/service/single-service-2.jpg",
-      "assets/images/service/single-service-3.jpg",
-      "assets/images/service/single-service-4.jpg",
+      "assets/images/products/speed.jpg",
+      "assets/images/products/keyworf.jpg",
+      "assets/images/products/travk.jpg",
     ],
     intro:
       "LawnLift SEO services help your lawn business appear when local customers search for mowing, landscaping, and seasonal yard work. We optimize your pages to drive qualified traffic that converts.",
@@ -140,11 +140,11 @@ export const lawnliftServices = [
     shortDescription:
       "Optimize your Google Business Profile to appear in local searches and attract nearby lawn care customers.",
     sidebarIcon: "flaticon-park",
-    mainImage: "assets/images/service/single-service-1.jpg",
+    mainImage: "assets/images/products/goigle.jpg",
     galleryImages: [
-      "assets/images/service/single-service-2.jpg",
-      "assets/images/service/single-service-3.jpg",
-      "assets/images/service/single-service-4.jpg",
+      "assets/images/products/reb.jpg",
+      "assets/images/products/googlee.jpg",
+      "assets/images/products/images.jpg",
     ],
     intro:
       "LawnLift improves your Google Business Profile so your lawn company appears in map results and local search packs. We focus on profile strength, relevance, and trust signals.",
@@ -185,11 +185,11 @@ export const lawnliftServices = [
     shortDescription:
       "Regular updates security backups and support to keep your lawn business website running smoothly.",
     sidebarIcon: "flaticon-rake",
-    mainImage: "assets/images/service/single-service-1.jpg",
+    mainImage: "assets/images/products/support.jpg",
     galleryImages: [
-      "assets/images/service/single-service-2.jpg",
-      "assets/images/service/single-service-3.jpg",
-      "assets/images/service/single-service-4.jpg",
+      "assets/images/products/backup.jpg",
+      "assets/images/products/security.jpg",
+      "assets/images/products/reviewa.jpg",
     ],
     intro:
       "LawnLift keeps your website secure, updated, and high performing month after month. We handle the technical work so your team can stay focused on lawn service delivery.",
@@ -225,48 +225,45 @@ export const lawnliftServices = [
     ],
   },
   {
-    slug: "lead-generation",
-    title: "Lead Generation",
-    shortDescription:
-      "Contact forms WhatsApp buttons and CTAs that convert visitors into paying lawn care customers automatically.",
+    slug: "crm-for-lawn-care",
+    title: "CRM for Lawn Care",
+    shortDescription: "Custom CRM system that tracks monthly leads, customers, bookings, and revenue for your lawn mowing business.",
     sidebarIcon: "flaticon-growth-1",
-    mainImage: "assets/images/service/single-service-1.jpg",
+    mainImage: "assets/images/products/crm.jpg",
     galleryImages: [
-      "assets/images/service/single-service-2.jpg",
-      "assets/images/service/single-service-3.jpg",
-      "assets/images/service/single-service-4.jpg",
+      "assets/images/products/mon.jpg",
+      "assets/images/products/les.jpg",
+      "assets/images/products/custom.jpg",
     ],
-    intro:
-      "LawnLift builds lead generation systems tailored to lawn care businesses, combining clear calls-to-action, high-converting forms, and direct messaging channels that increase inquiries.",
-    benefitTitle: "How LawnLift Helps",
-    benefitText:
-      "Better conversion paths mean more qualified leads from the same traffic. We remove friction from your site and guide visitors toward requesting quotes or booking services.",
+    intro: "We build custom CRM software for lawn care businesses that helps you track every lead, customer, job, and payment - all in one place. Know exactly how many leads come monthly and which marketing works best.",
+    benefitTitle: "How Our CRM Helps",
+    benefitText: "Stop using spreadsheets and notebooks. Our CRM shows you real-time data on leads, bookings, revenue, and customer retention - everything you need to grow your lawn business.",
     benefits: [
-      "Strategic CTA placement across key pages",
-      "Quote forms that collect useful job details",
-      "WhatsApp and click-to-call conversion paths",
-      "Landing pages built for campaign traffic",
+      "Track monthly leads and lead sources (Google, referrals, ads)",
+      "Customer database with service history and preferences",
+      "Job scheduling and automated reminders",
+      "Revenue reports and business growth analytics",
     ],
     process: [
       {
         icon: "flaticon-landscape",
-        title: "Conversion Audit",
-        text: "We map where your current website loses potential leads.",
+        title: "Requirement Analysis",
+        text: "We understand your lawn business workflow and needs.",
       },
       {
         icon: "flaticon-industry",
-        title: "Build Funnels",
-        text: "We design forms, CTAs, and messaging flows for lawn prospects.",
+        title: "Custom Development",
+        text: "We build a CRM tailored to your lawn care operations.",
       },
       {
         icon: "flaticon-bus-stop",
-        title: "Optimize Results",
-        text: "You refine performance based on lead quality and close rate.",
+        title: "Training & Support",
+        text: "We train your team and provide ongoing technical support.",
       },
     ],
     tips: [
-      "Use short forms on mobile to increase completion rates.",
-      "Add a clear response-time promise near your main contact CTA.",
+      "Track which marketing channel brings the most leads each month.",
+      "Use customer history to send seasonal offers and retain clients.",
     ],
   },
 ];
