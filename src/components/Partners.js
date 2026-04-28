@@ -13,7 +13,7 @@ const Partners = () => {
             <div className="partner-img">
               <a href="#">
                 <img
-                  src="assets/images/partners/partner-1.png"
+                  src="assets/images/products/logo.webp"
                   alt="Partner Image"
                 />
               </a>
@@ -33,7 +33,7 @@ const Partners = () => {
             <div className="partner-img">
               <a href="#">
                 <img
-                  src="assets/images/partners/partner-3.png"
+                  src="assets/images/products/logo.png"
                   alt="Partner Image"
                 />
               </a>
@@ -43,7 +43,7 @@ const Partners = () => {
             <div className="partner-img">
               <a href="#">
                 <img
-                  src="assets/images/partners/partner-4.png"
+                  src="assets/images/products/logo4.jpg"
                   alt="Partner Image"
                 />
               </a>
@@ -53,7 +53,7 @@ const Partners = () => {
             <div className="partner-img">
               <a href="#">
                 <img
-                  src="assets/images/partners/partner-5.png"
+                  src="assets/images/products/logo6.png"
                   alt="Partner Image"
                 />
               </a>

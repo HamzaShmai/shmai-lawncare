@@ -127,176 +127,176 @@ const Index3 = () => {
       {/*====== End Banner Section ======*/}
       {/*====== Start Features Section ======*/}
       <section className="features-section pt-95">
-        <div className="container">
-          <div className="row align-items-xl-center">
-            <div className="col-lg-6">
-              <div className="section-title mb-55 wow fadeInLeft">
-                <span className="sub-title">
-                  <i className="flaticon-plant" />
-                  What We Do For Gardening
-                </span>
-                <h2>We Care Your Garden &amp; Landscaping</h2>
-              </div>
+  <div className="container">
+    <div className="row align-items-xl-center">
+      <div className="col-lg-6">
+        <div className="section-title mb-55 wow fadeInLeft">
+          <span className="sub-title">
+            <i className="flaticon-plant" />
+            Why Choose Us
+          </span>
+          <h2>We Help Lawn Care Businesses Go Digital</h2>
+        </div>
+      </div>
+      <div className="col-lg-6">
+        <div className="features-content-box mb-55 wow fadeInRight">
+          <p>
+            Stop losing customers to competitors with better websites. We create digital solutions that help lawn mowing and landscaping businesses get found online, book more jobs, and grow faster.
+          </p>
+          <Link legacyBehavior href="/about">
+            <a className="btn-link">
+              Learn More
+              <i className="far fa-angle-double-right" />
+            </a>
+          </Link>
+        </div>
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-xl-3 col-md-6 col-sm-12">
+        <div
+          className="features-thumb-item-two mb-40 wow fadeInDown"
+          data-wow-delay=".2s"
+        >
+          <div className="thumb">
+            <img
+              src="assets/images/products/google.jpg"
+              alt="Image"
+            />
+          </div>
+          <div className="text">
+            <div className="icon">
+              <i className="flaticon-landscape-1" />
             </div>
-            <div className="col-lg-6">
-              <div className="features-content-box mb-55 wow fadeInRight">
-                <p>
-                  We provide professional gardening and landscaping services that transform ordinary outdoor spaces into beautiful, lush green gardens. Our expert team takes care of everything from lawn maintenance, plant selection, seasonal flower beds, and creative landscape design to complete garden makeovers.
-                </p>
+            <h5 className="title">Get Found on Google</h5>
+            <p>Appear at the top when customers search for lawn mowing near you and beat local competitors.</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-xl-3 col-md-6 col-sm-12">
+        <div
+          className="features-thumb-item-two mb-40 wow fadeInUp"
+          data-wow-delay=".25s"
+        >
+          <div className="thumb">
+            <img
+              src="assets/images/products/booking.png"
+              alt="Image"
+            />
+          </div>
+          <div className="text">
+            <div className="icon">
+              <i className="flaticon-watering-can" />
+            </div>
+            <h5 className="title">Book Jobs 24/7</h5>
+            <p>Customers can schedule and pay for lawn services anytime, even when you're sleeping or on a job.</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-xl-3 col-md-6 col-sm-12">
+        <div
+          className="features-thumb-item-two mb-40 wow fadeInDown"
+          data-wow-delay=".3s"
+        >
+          <div className="thumb">
+            <img
+              src="assets/images/products/after.jpg"
+              alt="Image"
+            />
+          </div>
+          <div className="text">
+            <div className="icon">
+              <i className="flaticon-lawnmower" />
+            </div>
+            <h5 className="title">Showcase Your Work</h5>
+            <p>Display before/after photos of lawns and gardens to build trust and win more customers.</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-xl-3 col-md-6 col-sm-12">
+        <div
+          className="features-thumb-item-two mb-40 wow fadeInUp"
+          data-wow-delay=".35s"
+        >
+          <div className="thumb">
+            <img
+              src="assets/images/products/images.jpg"
+              alt="Image"
+            />
+          </div>
+          <div className="text">
+            <div className="icon">
+              <i className="flaticon-spider-plant" />
+            </div>
+            <h5 className="title">Grow Your Business</h5>
+            <p>Get more leads, more bookings, and more repeat customers with a website that works for you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      {/*====== End Features Section ======*/}
+      {/*====== Start About Section ======*/}
+      <section className="about-bg-section">
+
+  <div
+    className="about-bg bg_cover wow fadeInLeft"
+    style={{ backgroundImage: "url(assets/images/products/build.jpg)" }}
+  />
+  <div className="container">
+    <div className="row align-items-center justify-content-end">
+      <div className="col-lg-6">
+        {/*====== About Content Box ======*/}
+        <div className="about-two_content-box pb-80 wow fadeInRight">
+          <div className="section-title">
+            <div className="section-title mb-50">
+              <span className="sub-title">
+                <i className="flaticon-plant" />
+                Who We Are
+              </span>
+              <h2>We Build Websites for Lawn Care Businesses</h2>
+            </div>
+            <p className="mb-45">
+              We specialize in creating professional websites for lawn mowing, landscaping, and gardening businesses. 
+              From custom designs and online booking systems to SEO and Google Business management, 
+              we help lawn care companies attract more customers and grow their business online. 
+              Get a high-performing website that converts visitors into paying clients.
+            </p>
+            <div className="about-inner-content d-flex justify-content-between">
+              <div className="inner-content">
+                <ul className="check-style-one mb-45">
+                  <li>
+                    <i className="far fa-check" />
+                    100+ Lawn Care Websites Built
+                  </li>
+                  <li>
+                    <i className="far fa-check" />
+                    5 Star Rated Web Solutions
+                  </li>
+                </ul>
                 <Link legacyBehavior href="/about">
-                  <a className="btn-link">
-                    Learn More
-                    <i className="far fa-angle-double-right" />
+                  <a className="main-btn primary-btn">Learn More Us</a>
+                </Link>
+              </div>
+              <div className="experience-box-two">
+                <h2 className="number">
+                  <Counter end={4} />+
+                </h2>
+                <h6>Years Of Experience</h6>
+                <Link legacyBehavior href="/about">
+                  <a className="icon-btn">
+                    <i className="far fa-arrow-right" />
                   </a>
                 </Link>
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-xl-3 col-md-6 col-sm-12">
-              <div
-                className="features-thumb-item-two mb-40 wow fadeInDown"
-                data-wow-delay=".2s"
-              >
-                <div className="thumb">
-                  <img
-                    src="assets/images/features/features-6.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="text">
-                  <div className="icon">
-                    <i className="flaticon-landscape-1" />
-                  </div>
-                  <h5 className="title">Professional Garden Care & Design</h5>
-                  <p>Expert garden maintenance, planting, and landscaping services for beautiful outdoor spaces.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-6 col-sm-12">
-              <div
-                className="features-thumb-item-two mb-40 wow fadeInUp"
-                data-wow-delay=".25s"
-              >
-                <div className="thumb">
-                  <img
-                    src="assets/images/features/features-7.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="text">
-                  <div className="icon">
-                    <i className="flaticon-watering-can" />
-                  </div>
-                  <h5 className="title">Urban Gardening Solutions</h5>
-                  <p>Smart urban gardening, terrace gardens, balcony plants, and small-space landscaping for city homes.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-6 col-sm-12">
-              <div
-                className="features-thumb-item-two mb-40 wow fadeInDown"
-                data-wow-delay=".3s"
-              >
-                <div className="thumb">
-                  <img
-                    src="assets/images/features/features-8.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="text">
-                  <div className="icon">
-                    <i className="flaticon-lawnmower" />
-                  </div>
-                  <h5 className="title">Lawn & Garden Maintenance</h5>
-                  <p>Regular lawn mowing, weed control, pruning, seasonal cleanups, and complete garden upkeep services.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-6 col-sm-12">
-              <div
-                className="features-thumb-item-two mb-40 wow fadeInUp"
-                data-wow-delay=".35s"
-              >
-                <div className="thumb">
-                  <img
-                    src="assets/images/features/features-9.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="text">
-                  <div className="icon">
-                    <i className="flaticon-spider-plant" />
-                  </div>
-                  <h5 className="title">Gardening Events & Workshops</h5>
-                  <p>Join our gardening workshops, plant care programs, seasonal events, and community landscaping activities.</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
-      {/*====== End Features Section ======*/}
-      {/*====== Start About Section ======*/}
-      <section className="about-bg-section">
-        {/*====== About BG ======*/}
-        <div
-          className="about-bg bg_cover wow fadeInLeft"
-          style={{ backgroundImage: "url(assets/images/bg/about-bg-1.jpg)" }}
-        />
-        <div className="container">
-          <div className="row align-items-center justify-content-end">
-            <div className="col-lg-6">
-              {/*====== About Content Box ======*/}
-              <div className="about-two_content-box pb-80 wow fadeInRight">
-                <div className="section-title">
-                  <div className="section-title mb-50">
-                    <span className="sub-title">
-                      <i className="flaticon-plant" />
-                      About Gardening
-                    </span>
-                    <h2>We Care Your Garden &amp; Landscaping</h2>
-                  </div>
-                  <p className="mb-45">
-                    We provide high-quality gardening and landscaping solutions for homes, offices, and commercial spaces.
-                    From lawn maintenance and plant selection to complete garden makeovers and landscape design,
-                    our expert team ensures your outdoor space looks beautiful all year round.
-                    Trust us for eco-friendly practices, affordable pricing, and guaranteed customer satisfaction.
-                  </p>
-                  <div className="about-inner-content d-flex justify-content-between">
-                    <div className="inner-content">
-                      <ul className="check-style-one mb-45">
-                        <li>
-                          <i className="far fa-check" />
-                          We’re Experience Gardening
-                        </li>
-                        <li>
-                          <i className="far fa-check" />
-                          Awards Winning &amp; Expert Team Member
-                        </li>
-                      </ul>
-                      <Link legacyBehavior href="/about">
-                        <a className="main-btn primary-btn">Learn More Us</a>
-                      </Link>
-                    </div>
-                    <div className="experience-box-two">
-                      <h2 className="number">
-                        <Counter end={25} />+
-                      </h2>
-                      <h6>Years Of Experience</h6>
-                      <Link legacyBehavior href="/about">
-                        <a className="icon-btn">
-                          <i className="far fa-arrow-right" />
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
       {/*====== End About Section ======*/}
       {/*====== Start Service Section ======*/}
       <section className="service-bgc-section p-r z-1 main-bg pt-150 pb-70">
@@ -329,199 +329,120 @@ const Index3 = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-xl-4 col-lg-6 col-sm-12">
-              {/*====== Service Item ======*/}
-              <div
-                className="single-service-item mb-30 wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-agriculture" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-agriculture" />
-                  </div>
-                  <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Yard Cleaning</a>
-                    </Link>
-                  </h4>
-                </div>
-                <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
-                    <a className="icon-btn">
-                      <i className="far fa-plus" />
-                    </a>
-                  </Link>
-                  <img
-                    src="assets/images/service/sv-1.jpg"
-                    alt="Service Image"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6 col-sm-12">
-              {/*====== Service Item ======*/}
-              <div
-                className="single-service-item mb-30 wow fadeInDown"
-                data-wow-delay=".25s"
-              >
-                <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-field-1" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-field-1" />
-                  </div>
-                  <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Garden Makeup</a>
-                    </Link>
-                  </h4>
-                </div>
-                <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
-                    <a className="icon-btn">
-                      <i className="far fa-plus" />
-                    </a>
-                  </Link>
-                  <img
-                    src="assets/images/service/sv-2.jpg"
-                    alt="Service Image"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6 col-sm-12">
-              {/*====== Service Item ======*/}
-              <div
-                className="single-service-item mb-30 wow fadeInUp"
-                data-wow-delay=".3s"
-              >
-                <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-farming" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-farming" />
-                  </div>
-                  <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Landscaping</a>
-                    </Link>
-                  </h4>
-                </div>
-                <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
-                    <a className="icon-btn">
-                      <i className="far fa-plus" />
-                    </a>
-                  </Link>
-                  <img
-                    src="assets/images/service/sv-3.jpg"
-                    alt="Service Image"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6 col-sm-12">
-              {/*====== Service Item ======*/}
-              <div
-                className="single-service-item mb-30 wow fadeInDown"
-                data-wow-delay=".35s"
-              >
-                <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-park" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-park" />
-                  </div>
-                  <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Lawn Mowing</a>
-                    </Link>
-                  </h4>
-                </div>
-                <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
-                    <a className="icon-btn">
-                      <i className="far fa-plus" />
-                    </a>
-                  </Link>
-                  <img
-                    src="assets/images/service/sv-4.jpg"
-                    alt="Service Image"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6 col-sm-12">
-              {/*====== Service Item ======*/}
-              <div
-                className="single-service-item mb-30 wow fadeInUp"
-                data-wow-delay=".4s"
-              >
-                <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-rake" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-rake" />
-                  </div>
-                  <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Decorative Plants</a>
-                    </Link>
-                  </h4>
-                </div>
-                <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
-                    <a className="icon-btn">
-                      <i className="far fa-plus" />
-                    </a>
-                  </Link>
-                  <img
-                    src="assets/images/service/sv-5.jpg"
-                    alt="Service Image"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6 col-sm-12">
-              {/*====== Service Item ======*/}
-              <div
-                className="single-service-item mb-30 wow fadeInDown"
-                data-wow-delay=".45s"
-              >
-                <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-growth-1" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-growth-1" />
-                  </div>
-                  <h4 className="title">
-                    <Link legacyBehavior href="/service-details">
-                      <a>Yard Maintaince</a>
-                    </Link>
-                  </h4>
-                </div>
-                <div className="service-img">
-                  <Link legacyBehavior href="/service-details">
-                    <a className="icon-btn">
-                      <i className="far fa-plus" />
-                    </a>
-                  </Link>
-                  <img
-                    src="assets/images/service/sv-6.jpg"
-                    alt="Service Image"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+  <div className="col-xl-4 col-lg-6 col-sm-12">
+    <div className="single-service-item mb-30 wow fadeInUp" data-wow-delay=".2s">
+      <div className="service-info">
+        <div className="shape icon-shape">
+          <i className="flaticon-agriculture" />
+        </div>
+        <div className="icon">
+          <i className="flaticon-agriculture" />
+        </div>
+        <h4 className="title">
+          <Link legacyBehavior href="/service-details">
+            <a>Custom Lawn Websites</a>
+          </Link>
+        </h4>
+        <p>Professional responsive websites for lawn mowing and landscaping businesses that attract more customers online.</p>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-xl-4 col-lg-6 col-sm-12">
+    <div className="single-service-item mb-30 wow fadeInDown" data-wow-delay=".25s">
+      <div className="service-info">
+        <div className="shape icon-shape">
+          <i className="flaticon-field-1" />
+        </div>
+        <div className="icon">
+          <i className="flaticon-field-1" />
+        </div>
+        <h4 className="title">
+          <Link legacyBehavior href="/service-details">
+            <a>Booking & Payment</a>
+          </Link>
+        </h4>
+        <p>Easy online booking and payment integration so customers can schedule and pay for lawn services directly.</p>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-xl-4 col-lg-6 col-sm-12">
+    <div className="single-service-item mb-30 wow fadeInUp" data-wow-delay=".3s">
+      <div className="service-info">
+        <div className="shape icon-shape">
+          <i className="flaticon-farming" />
+        </div>
+        <div className="icon">
+          <i className="flaticon-farming" />
+        </div>
+        <h4 className="title">
+          <Link legacyBehavior href="/service-details">
+            <a>Lawn Business SEO</a>
+          </Link>
+        </h4>
+        <p>Rank higher on Google and get more local customers searching for lawn mowing and yard care services.</p>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-xl-4 col-lg-6 col-sm-12">
+    <div className="single-service-item mb-30 wow fadeInDown" data-wow-delay=".35s">
+      <div className="service-info">
+        <div className="shape icon-shape">
+          <i className="flaticon-park" />
+        </div>
+        <div className="icon">
+          <i className="flaticon-park" />
+        </div>
+        <h4 className="title">
+          <Link legacyBehavior href="/service-details">
+            <a>Google Business</a>
+          </Link>
+        </h4>
+        <p>Optimize your Google Business Profile to appear in local searches and attract nearby lawn care customers.</p>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-xl-4 col-lg-6 col-sm-12">
+    <div className="single-service-item mb-30 wow fadeInUp" data-wow-delay=".4s">
+      <div className="service-info">
+        <div className="shape icon-shape">
+          <i className="flaticon-rake" />
+        </div>
+        <div className="icon">
+          <i className="flaticon-rake" />
+        </div>
+        <h4 className="title">
+          <Link legacyBehavior href="/service-details">
+            <a>Maintenance & Support</a>
+          </Link>
+        </h4>
+        <p>Regular updates security backups and support to keep your lawn business website running smoothly.</p>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-xl-4 col-lg-6 col-sm-12">
+    <div className="single-service-item mb-30 wow fadeInDown" data-wow-delay=".45s">
+      <div className="service-info">
+        <div className="shape icon-shape">
+          <i className="flaticon-growth-1" />
+        </div>
+        <div className="icon">
+          <i className="flaticon-growth-1" />
+        </div>
+        <h4 className="title">
+          <Link legacyBehavior href="/service-details">
+            <a>Lead Generation</a>
+          </Link>
+        </h4>
+        <p>Contact forms WhatsApp buttons and CTAs that convert visitors into paying lawn care customers automatically.</p>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </section>
       {/*====== End Service Section ======*/}
@@ -623,14 +544,14 @@ const Index3 = () => {
                     className="circle-logo"
                     alt="Circle Logo"
                   />
-                  <h2>Looking For a Experience Garden Specialist?</h2>
+                  <h2>Looking For a Lawn Care Website Expert?</h2>
                 </div>
               </div>
               <div className="col-lg-3">
                 {/*====== CTA Button ======*/}
                 <div className="cta-button float-lg-right mb-40 wow fadeInRight">
-                  <Link legacyBehavior href="/team">
-                    <a className="main-btn golden-btn">Find Specialist</a>
+                  <Link legacyBehavior href="/portfolio">
+                    <a className="main-btn golden-btn">View Our Work</a>
                   </Link>
                 </div>
               </div>
@@ -658,7 +579,7 @@ const Index3 = () => {
                   </a>
                   <div className="hover-content text-white text-center">
                     <h3 className="title">
-                      <Link legacyBehavior href="/product-details">
+                      <Link legacyBehavior href="/portfolio">
                         <a>Garden Caring</a>
                       </Link>
                     </h3>
@@ -678,7 +599,7 @@ const Index3 = () => {
                   </a>
                   <div className="hover-content text-white text-center">
                     <h3 className="title">
-                      <Link legacyBehavior href="/product-details">
+                      <Link legacyBehavior href="/portfolio">
                         <a>Garden Caring</a>
                       </Link>
                     </h3>
@@ -698,7 +619,7 @@ const Index3 = () => {
                   </a>
                   <div className="hover-content text-white text-center">
                     <h3 className="title">
-                      <Link legacyBehavior href="/product-details">
+                      <Link legacyBehavior href="/portfolio">
                         <a>Garden Caring</a>
                       </Link>
                     </h3>
@@ -718,7 +639,7 @@ const Index3 = () => {
                   </a>
                   <div className="hover-content text-white text-center">
                     <h3 className="title">
-                      <Link legacyBehavior href="/product-details">
+                      <Link legacyBehavior href="/portfolio">
                         <a>Garden Caring</a>
                       </Link>
                     </h3>
@@ -738,7 +659,7 @@ const Index3 = () => {
                   </a>
                   <div className="hover-content text-white text-center">
                     <h3 className="title">
-                      <Link legacyBehavior href="/product-details">
+                      <Link legacyBehavior href="/portfolio">
                         <a>Garden Caring</a>
                       </Link>
                     </h3>
@@ -752,526 +673,315 @@ const Index3 = () => {
       </section>
       {/*====== End Gallery Section ======*/}
       {/*====== Start Pricing Section ======*/}
-      <section className="pricing-section pt-95 pb-60">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-12">
-              {/*====== Section-title ======*/}
-              <div className="section-title text-center mb-50 wow fadeInDown">
-                <span className="sub-title">
-                  <i className="flaticon-plant" />
-                  Pricing Plan
-                </span>
-                <h2>Smart Pricing Package</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Pricing Item ======*/}
-              <div
-                className="single-pricing-item mb-40 wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <div className="pricing-img">
-                  <img
-                    src="assets/images/pricing/pricing-1.jpg"
-                    alt="Pricing Image"
-                  />
-                </div>
-                <div className="pricing-body">
-                  <div className="shape shape-one">
-                    <span>
-                      <img src="assets/images/pricing/leaf.png" alt="Image" />
-                    </span>
-                  </div>
-                  <div className="pricing-title text-center mb-35">
-                    <h3 className="title">Residential Package</h3>
-                  </div>
-                  <ul className="mb-35">
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Install a Patio or Pathway
-                    </li>
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Install Landscaping
-                    </li>
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Waterproof a Deck Costs
-                    </li>
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Remove a Tree Stump
-                    </li>
-                  </ul>
-                  <h2 className="price">
-                    <span className="currency">$</span>19.36
-                    <span className="duration">/Per Month</span>
-                  </h2>
-                  <div className="pricing-button text-center">
-                    <a href="#" className="main-btn primary-btn">
-                      Choose Package
-                    </a>
-                    <p>Get 23% Save For Services</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Pricing Item ======*/}
-              <div
-                className="single-pricing-item mb-40 wow fadeInUp"
-                data-wow-delay=".25s"
-              >
-                <div className="pricing-img">
-                  <img
-                    src="assets/images/pricing/pricing-2.jpg"
-                    alt="Pricing Image"
-                  />
-                </div>
-                <div className="pricing-body">
-                  <div className="shape shape-one">
-                    <span>
-                      <img src="assets/images/pricing/leaf.png" alt="Image" />
-                    </span>
-                  </div>
-                  <div className="pricing-title text-center mb-35">
-                    <h3 className="title">Commercial Package</h3>
-                  </div>
-                  <ul className="mb-35">
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Install a Patio or Pathway
-                    </li>
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Install Landscaping
-                    </li>
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Waterproof a Deck Costs
-                    </li>
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Remove a Tree Stump
-                    </li>
-                  </ul>
-                  <h2 className="price">
-                    <span className="currency">$</span>39.47
-                    <span className="duration">/Per Month</span>
-                  </h2>
-                  <div className="pricing-button text-center">
-                    <a href="#" className="main-btn primary-btn">
-                      Choose Package
-                    </a>
-                    <p>Get 23% Save For Services</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Pricing Item ======*/}
-              <div
-                className="single-pricing-item mb-40 wow fadeInUp"
-                data-wow-delay=".3s"
-              >
-                <div className="pricing-img">
-                  <img
-                    src="assets/images/pricing/pricing-3.jpg"
-                    alt="Pricing Image"
-                  />
-                </div>
-                <div className="pricing-body">
-                  <div className="shape shape-one">
-                    <span>
-                      <img src="assets/images/pricing/leaf.png" alt="Image" />
-                    </span>
-                  </div>
-                  <div className="pricing-title text-center mb-35">
-                    <h3 className="title">Industrial Package</h3>
-                  </div>
-                  <ul className="mb-35">
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Install a Patio or Pathway
-                    </li>
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Install Landscaping
-                    </li>
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Waterproof a Deck Costs
-                    </li>
-                    <li>
-                      <i className="fas fa-badge-check" />
-                      Remove a Tree Stump
-                    </li>
-                  </ul>
-                  <h2 className="price">
-                    <span className="currency">$</span>92.36
-                    <span className="duration">/Per Month</span>
-                  </h2>
-                  <div className="pricing-button text-center">
-                    <a href="#" className="main-btn primary-btn">
-                      Choose Package
-                    </a>
-                    <p>Get 15% Save For Services</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
       {/*====== End Pricing Section ======*/}
       {/*====== Start Testimonial Section  ======*/}
-      <section className="testimonial-section">
-        <div className="container-fluid">
-          {/*====== Testimonial Wrapper ======*/}
-          <div className="testimonial-wrapper main-bg wow fadeInDown">
-            <div className="shape shape-one">
-              <span>
-                <img src="assets/images/testimonial/img-1.jpg" alt="image" />
-              </span>
-            </div>
-            <div className="shape shape-two">
-              <span>
-                <img src="assets/images/testimonial/img-2.jpg" alt="image" />
-              </span>
-            </div>
-            <div className="shape shape-three">
-              <span>
-                <img src="assets/images/testimonial/img-3.jpg" alt="image" />
-              </span>
-            </div>
-            <div className="shape shape-four">
-              <span>
-                <img
-                  src="assets/images/testimonial/tree.png"
-                  alt="Tree image"
-                />
-              </span>
-            </div>
-            <div className="shape shape-five">
-              <span>
-                <img
-                  src="assets/images/testimonial/tree2.png"
-                  alt="Tree image"
-                />
-              </span>
-            </div>
-            <div className="container">
-              <div className="row justify-content-center">
-                <div className="col-lg-7">
-                  {/*====== Testimonial Slider  ======*/}
-                  <Slider
-                    {...sliderProps.testimonialSliderTwo}
-                    className="testimonial-slider-two"
-                  >
-                    {/*====== Single Testimonial Item  ======*/}
-                    <div className="single-testimonial-item-two">
-                      <div className="quote-rating-box">
-                        <div className="icon">
-                          <img
-                            src="assets/images/testimonial/quote2.png"
-                            alt="quote icon"
-                          />
-                        </div>
-                        <div className="ratings-box">
-                          <h3>Quality Services</h3>
-                          <ul className="ratings">
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <p>
-                        Shmai Lawn Express completely transformed my yard. Their attention to detail and reliable service make them the best landscaping company I have ever worked with. Highly recommended!
-                      </p>
-                      <div className="author-thumb-title">
-                        <div className="author-thumb">
-                          <img
-                            src="assets/images/testimonial/thumb-1.jpg"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-title">
-                          <h6 className="title">Douglas D. Hall</h6>
-                          <p className="position">CEO &amp; Founder</p>
-                        </div>
-                      </div>
-                    </div>
-                    {/*====== Single Testimonial Item  ======*/}
-                    <div className="single-testimonial-item-two mb-60">
-                      <div className="quote-rating-box">
-                        <div className="icon">
-                          <img
-                            src="assets/images/testimonial/quote2.png"
-                            alt="quote icon"
-                          />
-                        </div>
-                        <div className="ratings-box">
-                          <h3>Quality Services</h3>
-                          <ul className="ratings">
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <p>
-                        I am extremely satisfied with their lawn maintenance services. The team is professional, punctual, and my grass has never looked greener. A fantastic experience overall.
-                      </p>
-                      <div className="author-thumb-title">
-                        <div className="author-thumb">
-                          <img
-                            src="assets/images/testimonial/thumb-1.jpg"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-title">
-                          <h6 className="title">Douglas D. Hall</h6>
-                          <p className="position">CEO &amp; Founder</p>
-                        </div>
-                      </div>
-                    </div>
-                    {/*====== Single Testimonial Item  ======*/}
-                    <div className="single-testimonial-item-two mb-60">
-                      <div className="quote-rating-box">
-                        <div className="icon">
-                          <img
-                            src="assets/images/testimonial/quote2.png"
-                            alt="quote icon"
-                          />
-                        </div>
-                        <div className="ratings-box">
-                          <h3>Quality Services</h3>
-                          <ul className="ratings">
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <p>
-                        Great service from start to finish! They handled our landscaping project with great care and the results are stunning. We've received so many compliments from our neighbors.
-                      </p>
-                      <div className="author-thumb-title">
-                        <div className="author-thumb">
-                          <img
-                            src="assets/images/testimonial/thumb-1.jpg"
-                            alt="Author Image"
-
-
-                          />
-                        </div>
-                        <div className="author-title">
-                          <h6 className="title">Douglas D. Hall</h6>
-                          <p className="position">CEO &amp; Founder</p>
-                        </div>
-                      </div>
-                    </div>
-                  </Slider>
+      <section className="testimonial-section pt-5">
+  <div className="container-fluid">
+    {/*====== Testimonial Wrapper ======*/}
+    <div className="testimonial-wrapper main-bg wow fadeInDown">
+      <div className="shape shape-one">
+        <span>
+          <img src="assets/images/testimonial/img-1.jpg" alt="image" />
+        </span>
+      </div>
+      <div className="shape shape-two">
+        <span>
+          <img src="assets/images/testimonial/img-2.jpg" alt="image" />
+        </span>
+      </div>
+      <div className="shape shape-three">
+        <span>
+          <img src="assets/images/testimonial/img-3.jpg" alt="image" />
+        </span>
+      </div>
+      <div className="shape shape-four">
+        <span>
+          <img src="assets/images/testimonial/tree.png" alt="Tree image" />
+        </span>
+      </div>
+      <div className="shape shape-five">
+        <span>
+          <img src="assets/images/testimonial/tree2.png" alt="Tree image" />
+        </span>
+      </div>
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-7">
+            {/*====== Testimonial Slider  ======*/}
+            <Slider
+              {...sliderProps.testimonialSliderTwo}
+              className="testimonial-slider-two"
+            >
+              {/*====== Single Testimonial Item 1 ======*/}
+              <div className="single-testimonial-item-two">
+                <div className="quote-rating-box">
+                  <div className="icon">
+                    <img
+                      src="assets/images/testimonial/quote2.png"
+                      alt="quote icon"
+                    />
+                  </div>
+                  <div className="ratings-box">
+                    <h3>Great Website Design</h3>
+                    <ul className="ratings">
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                    </ul>
+                  </div>
+                </div>
+                <p>
+                  Their team built a stunning website for my lawn care business. Now I get daily booking requests online. Best investment I ever made for my company!
+                </p>
+                <div className="author-thumb-title">
+                  <div className="author-thumb">
+                    <img
+                      src="assets/images/testimonial/thumb-1.jpg"
+                      alt="Author Image"
+                    />
+                  </div>
+                  <div className="author-title">
+                    <h6 className="title">Michael R. Green</h6>
+                    <p className="position">Green Lawn Care Owner</p>
+                  </div>
                 </div>
               </div>
-            </div>
+              {/*====== Single Testimonial Item 2 ======*/}
+              <div className="single-testimonial-item-two mb-60">
+                <div className="quote-rating-box">
+                  <div className="icon">
+                    <img
+                      src="assets/images/testimonial/quote2.png"
+                      alt="quote icon"
+                    />
+                  </div>
+                  <div className="ratings-box">
+                    <h3>SEO Results Fast</h3>
+                    <ul className="ratings">
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                    </ul>
+                  </div>
+                </div>
+                <p>
+                  My lawn mowing website now ranks #1 on Google. Calls and messages haven't stopped coming in. Their SEO work is absolutely incredible.
+                </p>
+                <div className="author-thumb-title">
+                  <div className="author-thumb">
+                    <img
+                      src="assets/images/testimonial/thumb-1.jpg"
+                      alt="Author Image"
+                    />
+                  </div>
+                  <div className="author-title">
+                    <h6 className="title">Sarah J. Martinez</h6>
+                    <p className="position">Martinez Landscaping</p>
+                  </div>
+                </div>
+              </div>
+              {/*====== Single Testimonial Item 3 ======*/}
+              <div className="single-testimonial-item-two mb-60">
+                <div className="quote-rating-box">
+                  <div className="icon">
+                    <img
+                      src="assets/images/testimonial/quote2.png"
+                      alt="quote icon"
+                    />
+                  </div>
+                  <div className="ratings-box">
+                    <h3>Amazing Support</h3>
+                    <ul className="ratings">
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                      <li><i className="fas fa-star" /></li>
+                    </ul>
+                  </div>
+                </div>
+                <p>
+                  The online booking system they set up saved me hours of phone calls. My customers love how easy it is to schedule lawn services now.
+                </p>
+                <div className="author-thumb-title">
+                  <div className="author-thumb">
+                    <img
+                      src="assets/images/testimonial/thumb-1.jpg"
+                      alt="Author Image"
+                    />
+                  </div>
+                  <div className="author-title">
+                    <h6 className="title">David T. Wilson</h6>
+                    <p className="position">Wilson Lawn & Garden</p>
+                  </div>
+                </div>
+              </div>
+            </Slider>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
       {/*====== End Testimonial Section  ======*/}
       {/*====== Start Blog Section  ======*/}
       <section className="blog-section pt-100 pb-60">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-7 col-lg-12">
-              <div className="section-title text-center mb-50 wow fadeInDown">
-                <span className="sub-title">
-                  <i className="flaticon-plant" />
-                  News &amp; Blog
-                </span>
-                <h2>Read Latest News & Blog</h2>
-              </div>
+  <div className="container">
+    <div className="row justify-content-center">
+      <div className="col-xl-7 col-lg-12">
+        <div className="section-title text-center mb-50 wow fadeInDown">
+          <span className="sub-title">
+            <i className="flaticon-plant" />
+            Resources &amp; Guides
+          </span>
+          <h2>Read Latest Web Tips For Lawn Businesses</h2>
+        </div>
+      </div>
+    </div>
+    <div className="row justify-content-center">
+      <div className="col-xl-4 col-md-6 col-sm-12">
+        {/*====== Single Blog Post 1 ======*/}
+        <div
+          className="single-blog-post-two mb-40 wow fadeInUp"
+          data-wow-delay=".2s"
+        >
+          <div className="entry-content">
+            <div className="post-meta">
+              <span className="date">
+                <Link legacyBehavior href="/blog-details">
+                  <a>15 January 2024</a>
+                </Link>
+              </span>
+              <span className="comment">
+                <Link legacyBehavior href="/blog-details">
+                  <a>12 Comments</a>
+                </Link>
+              </span>
+            </div>
+            <h4 className="entry-title">
+              <Link legacyBehavior href="/blog-details">
+                <a>How to Get More Lawn Care Customers Online</a>
+              </Link>
+            </h4>
+            <div className="author">
+              <img
+                src="assets/images/blog/author-thumb-4.jpg"
+                alt="Author Image"
+              />
+              <h6>
+                <span>By</span>
+                <Link legacyBehavior href="/blog-details">
+                  <a>Michael</a>
+                </Link>
+              </h6>
             </div>
           </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Blog Post  ======*/}
-              <div
-                className="single-blog-post-two mb-40 wow wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <div className="entry-content">
-                  <div className="post-meta">
-                    <span className="date">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>25 December 2022</a>
-                      </Link>
-                    </span>
-                    <span className="comment">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>5 Comments</a>
-                      </Link>
-                    </span>
-                  </div>
-                  <h4 className="entry-title">
-                    <Link legacyBehavior href="/blog-details">
-                      <a>Essential Lawn Care Tips for a Greener Yard</a>
-                    </Link>
-                  </h4>
-                  <div className="author">
-                    <img
-                      src="assets/images/blog/author-thumb-4.jpg"
-                      alt="Author Image"
-                    />
-                    <h6>
-                      <span>By</span>
-                      <Link legacyBehavior href="/blog-details">
-                        <a>Michael</a>
-                      </Link>
-                    </h6>
-                  </div>
-                </div>
-                <div className="post-thumbnail">
-                  <img
-                    src="assets/images/blog/blog-4.jpg"
-                    alt="Post Thumbnail"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Blog Post  ======*/}
-              <div
-                className="single-blog-post-two mb-40 wow fadeInDown"
-                data-wow-delay=".25s"
-              >
-                <div className="entry-content">
-                  <div className="post-meta">
-                    <span className="date">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>25 December 2022</a>
-                      </Link>
-                    </span>
-                    <span className="comment">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>5 Comments</a>
-                      </Link>
-                    </span>
-                  </div>
-                  <h4 className="entry-title">
-                    <Link legacyBehavior href="/blog-details">
-                      <a>How to Choose the Right Plants for Your Landscape</a>
-                    </Link>
-                  </h4>
-                  <div className="author">
-                    <img
-                      src="assets/images/blog/author-thumb-5.jpg"
-                      alt="Author Image"
-                    />
-                    <h6>
-                      <span>By</span>
-                      <Link legacyBehavior href="/blog-details">
-                        <a>Michael</a>
-                      </Link>
-                    </h6>
-                  </div>
-                </div>
-                <div className="post-thumbnail">
-                  <img
-                    src="assets/images/blog/blog-5.jpg"
-                    alt="Post Thumbnail"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-12">
-              {/*====== Single Blog Post  ======*/}
-              <div
-                className="single-blog-post-two mb-40 wow fadeInUp"
-                data-wow-delay=".3s"
-              >
-                <div className="entry-content">
-                  <div className="post-meta">
-                    <span className="date">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>25 December 2022</a>
-                      </Link>
-                    </span>
-                    <span className="comment">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>5 Comments</a>
-                      </Link>
-                    </span>
-                  </div>
-                  <h4 className="entry-title">
-                    <Link legacyBehavior href="/blog-details">
-                      <a>Benefits of Professional Lawn Maintenance</a>
-                    </Link>
-                  </h4>
-                  <div className="author">
-                    <img
-                      src="assets/images/blog/author-thumb-6.jpg"
-                      alt="Author Image"
-                    />
-                    <h6>
-                      <span>By</span>
-                      <Link legacyBehavior href="/blog-details">
-                        <a>Ken smith</a>
-                      </Link>
-                    </h6>
-                  </div>
-                </div>
-                <div className="post-thumbnail">
-                  <img
-                    src="assets/images/blog/blog-6.jpg"
-                    alt="Post Thumbnail"
-                  />
-                </div>
-              </div>
-            </div>
+          <div className="post-thumbnail">
+            <img
+              src="assets/images/blog/blog-4.jpg"
+              alt="Post Thumbnail"
+            />
           </div>
         </div>
-      </section>
+      </div>
+      <div className="col-xl-4 col-md-6 col-sm-12">
+        {/*====== Single Blog Post 2 ======*/}
+        <div
+          className="single-blog-post-two mb-40 wow fadeInDown"
+          data-wow-delay=".25s"
+        >
+          <div className="entry-content">
+            <div className="post-meta">
+              <span className="date">
+                <Link legacyBehavior href="/blog-details">
+                  <a>05 February 2024</a>
+                </Link>
+              </span>
+              <span className="comment">
+                <Link legacyBehavior href="/blog-details">
+                  <a>8 Comments</a>
+                </Link>
+              </span>
+            </div>
+            <h4 className="entry-title">
+              <Link legacyBehavior href="/blog-details">
+                <a>Why Your Lawn Business Needs Online Booking</a>
+              </Link>
+            </h4>
+            <div className="author">
+              <img
+                src="assets/images/blog/author-thumb-5.jpg"
+                alt="Author Image"
+              />
+              <h6>
+                <span>By</span>
+                <Link legacyBehavior href="/blog-details">
+                  <a>Sarah</a>
+                </Link>
+              </h6>
+            </div>
+          </div>
+          <div className="post-thumbnail">
+            <img
+              src="assets/images/blog/blog-5.jpg"
+              alt="Post Thumbnail"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="col-xl-4 col-md-6 col-sm-12">
+        {/*====== Single Blog Post 3 ======*/}
+        <div
+          className="single-blog-post-two mb-40 wow fadeInUp"
+          data-wow-delay=".3s"
+        >
+          <div className="entry-content">
+            <div className="post-meta">
+              <span className="date">
+                <Link legacyBehavior href="/blog-details">
+                  <a>20 March 2024</a>
+                </Link>
+              </span>
+              <span className="comment">
+                <Link legacyBehavior href="/blog-details">
+                  <a>15 Comments</a>
+                </Link>
+              </span>
+            </div>
+            <h4 className="entry-title">
+              <Link legacyBehavior href="/blog-details">
+                <a>Top SEO Tips for Lawn Mowing Companies</a>
+              </Link>
+            </h4>
+            <div className="author">
+              <img
+                src="assets/images/blog/author-thumb-6.jpg"
+                alt="Author Image"
+              />
+              <h6>
+                <span>By</span>
+                <Link legacyBehavior href="/blog-details">
+                  <a>David</a>
+                </Link>
+              </h6>
+            </div>
+          </div>
+          <div className="post-thumbnail">
+            <img
+              src="assets/images/blog/blog-6.jpg"
+              alt="Post Thumbnail"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       {/*====== End Blog Section  ======*/}
       {/*====== Start Partners Section ======*/}
       <Partners />

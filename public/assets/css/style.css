@@ -49,6 +49,16 @@
 .sidebar-widget-area .widget-newsletter .sidebar-content .form_control::-ms-input-placeholder {
   color: #0B3D2C;
 }
+.features-thumb-item-two .thumb img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 160px !important;
+  object-fit: cover!important;
+}
+.single-testimonial-item{
+  background: transparent !important;;
+}
+
 
 .project-img img {
   height: 500px !important;
