@@ -67,12 +67,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                   <li className="menu-item has-children">
                     <a href="#">
                       Home
-                      <span
-                        className="dd-trigger"
-                        onClick={() => active("home")}
-                      >
-                        <i className="far fa-angle-down" />
-                      </span>
+                    
                     </a>
                
                   </li>

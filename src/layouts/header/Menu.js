@@ -51,7 +51,7 @@ const Menu = () => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Link legacyBehavior href="blog-standard">
+              <Link r href="/blog-standard">
                 Blog Standard
               </Link>
             </li>
