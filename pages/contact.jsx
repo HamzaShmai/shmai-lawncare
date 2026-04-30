@@ -36,7 +36,7 @@ const Contact = () => {
                       <a href="mailto:info@shmai.com">info@shmai.com</a>
                     </h6>
                     <h6>
-                      <a href="mailto:info@shmai.com">info@shmai.com</a>
+                      <a href="mailto:info@shmai.com">shmai.com@gmail.com</a>
                     </h6>
                   </div>
                 </div>
