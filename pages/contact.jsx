@@ -33,10 +33,10 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Email Address</span>
                     <h6>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:info@shmai.com">info@shmai.com</a>
                     </h6>
                     <h6>
-                      <a href="mailto:infogarden.net">infogarden.net</a>
+                      <a href="mailto:info@shmai.com">info@shmai.com</a>
                     </h6>
                   </div>
                 </div>
@@ -50,7 +50,7 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Phone No</span>
                     <h6>
-                      <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="tel:+000(123)45688">+92 300-9669339</a>
                     </h6>
                   </div>
                 </div>

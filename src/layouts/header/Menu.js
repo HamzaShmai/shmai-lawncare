@@ -72,16 +72,8 @@ const Menu = () => {
               </Link>
             </li>
            
-            <li>
-              <Link legacyBehavior href="testimonials">
-                Testimonial
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="faqs">
-                Faq
-              </Link>
-            </li>
+          
+          
             <li>
               <Link legacyBehavior href="contact">
                 Contact
