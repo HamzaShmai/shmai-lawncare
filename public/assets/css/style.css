@@ -51,6 +51,28 @@
   cursor: -moz-grab !important;
   cursor: -webkit-grab !important;
 }
+/* .shmau{
+position: sticky;
+top: 0px;
+height: 100%;
+width: 100%;
+} */
+.like{
+  position: sticky;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+}
+.single-blog-post-two{
+  border: 2px solid #8080802e;
+
+}
+.slick-prev:before{
+  display: none;
+}
+.slick-next:before{
+display: none;
+}
 
 .slick-slider .slick-track:active {
   cursor: grabbing !important;
@@ -2310,7 +2332,7 @@ button {
 }
 
 .hero-content p {
-  font: 500 20px "Roboto", sans-serif;
+  font: 500 17px "Roboto", sans-serif;
   line-height: 20px;
   margin-bottom: 43px;
 }

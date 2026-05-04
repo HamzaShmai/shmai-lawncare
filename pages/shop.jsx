@@ -307,6 +307,16 @@ const Shop = () => {
                     </li>
                   </ul>
                 </div>
+                <div className="sidebar-widget widget-tag-cloud mb-40 wow fadeInUp">
+                  <h4 className="widget-title">Tags</h4>
+                  <a href="#">Website</a>
+                  <a href="#">SEO</a>
+                  <a href="#">Booking</a>
+                  <a href="#">Google Business</a>
+                  <a href="#">Leads</a>
+                  <a href="#">Conversion</a>
+                  <a href="#">LawnLift</a>
+                </div>
                 {/*=== Banner Widget ===*/}
                 <div className="sidebar-widget widget-banner mb-40 wow fadeInUp">
                   <div className="banner-content text-white">
@@ -322,16 +332,7 @@ const Shop = () => {
                   </div>
                 </div>
                 {/*=== Tag Widget ===*/}
-                <div className="sidebar-widget widget-tag-cloud mb-40 wow fadeInUp">
-                  <h4 className="widget-title">Tags</h4>
-                  <a href="#">Website</a>
-                  <a href="#">SEO</a>
-                  <a href="#">Booking</a>
-                  <a href="#">Google Business</a>
-                  <a href="#">Leads</a>
-                  <a href="#">Conversion</a>
-                  <a href="#">LawnLift</a>
-                </div>
+             
               </div>
             </div>
           </div>

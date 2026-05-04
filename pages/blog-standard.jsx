@@ -542,18 +542,9 @@ const BlogStandard = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="sidebar-widget widget-tag-cloud mb-40 wow fadeInUp">
-                  <h4 className="widget-title">Tags</h4>
-                  <a href="#">Gardening</a>
-                  <a href="#">Landscaping</a>
-                  <a href="#">Plants</a>
-                  <a href="#">Trimming</a>
-                  <a href="#">Yard</a>
-                  <a href="#">Yard Maintenance</a>
-                  <a href="#">Tree</a>
-                </div>
+
                 {/* Banner Widget */}
-                <div className="sidebar-widget shmau widget-banner mb-40 wow fadeInUp">
+                <div className="sidebar-widget widget-banner mb-40 wow fadeInUp">
                   <div className="banner-content text-white">
                     <h3 className="title">Looking For Special Gardener!</h3>
                     <p>You're in right place</p>
@@ -568,7 +559,16 @@ const BlogStandard = () => {
                 </div>
 
                 {/* Tag Widget */}
-           
+                <div className="sidebar-widget widget-tag-cloud mb-40 wow fadeInUp">
+                  <h4 className="widget-title">Tags</h4>
+                  <a href="#">Gardening</a>
+                  <a href="#">Landscaping</a>
+                  <a href="#">Plants</a>
+                  <a href="#">Trimming</a>
+                  <a href="#">Yard</a>
+                  <a href="#">Yard Maintenance</a>
+                  <a href="#">Tree</a>
+                </div>
               </div>
             </div>
           </div>

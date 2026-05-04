@@ -15,10 +15,6 @@ export const sliderProps = {
     autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    draggable: true,
-    swipe: true,
-    swipeToSlide: true,
-    touchMove: true,
     responsive: [
       {
         breakpoint: 1400,
@@ -48,10 +44,6 @@ export const sliderProps = {
     autoplay: false,
     slidesToShow: 3,
     slidesToScroll: 1,
-    draggable: true,
-    swipe: true,
-    swipeToSlide: true,
-    touchMove: true,
     prevArrow: <Arrow icon={"far fa-arrow-left"} extraClass={"prev"} />,
     nextArrow: <Arrow icon={"far fa-arrow-right"} extraClass={"next"} />,
     responsive: [
@@ -85,10 +77,6 @@ export const sliderProps = {
     autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    draggable: true,
-    swipe: true,
-    swipeToSlide: true,
-    touchMove: true,
   },
   testimonialSliderTwo: {
     dots: true,
@@ -98,10 +86,6 @@ export const sliderProps = {
     autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    draggable: true,
-    swipe: true,
-    swipeToSlide: true,
-    touchMove: true,
   },
   heroOne: {
     dots: false,
@@ -113,9 +97,6 @@ export const sliderProps = {
     autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    draggable: true,
-    swipe: true,
-    touchMove: true,
   },
   heroSliderTwo: {
     dots: false,
@@ -127,10 +108,6 @@ export const sliderProps = {
     autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    draggable: true,
-    swipe: true,
-    swipeToSlide: true,
-    touchMove: true,
     prevArrow: <Arrow icon={"far fa-arrow-left"} extraClass={"prev"} />,
     nextArrow: <Arrow icon={"far fa-arrow-right"} extraClass={"next"} />,
     responsive: [
@@ -150,10 +127,6 @@ export const sliderProps = {
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    draggable: true,
-    swipe: true,
-    swipeToSlide: true,
-    touchMove: true,
     responsive: [
       {
         breakpoint: 1400,
@@ -183,10 +156,6 @@ export const sliderProps = {
     autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    draggable: true,
-    swipe: true,
-    swipeToSlide: true,
-    touchMove: true,
     responsive: [
       {
         breakpoint: 1400,
@@ -216,10 +185,6 @@ export const sliderProps = {
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    draggable: true,
-    swipe: true,
-    swipeToSlide: true,
-    touchMove: true,
     responsive: [
       {
         breakpoint: 1200,
@@ -240,24 +205,15 @@ export const sliderProps = {
     arrows: false,
     infinite: true,
     speed: 800,
-    draggable: true,      // mobile ke liye
-    mouseDrag: true,      // ✅ desktop mouse ke liye (yeh add karo)
     autoplay: true,
     slidesToShow: 6,
     slidesToScroll: 1,
-    swipe: true,
-    swipeToSlide: true,
-    touchMove: true,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
           arrows: false,
           slidesToShow: 4,
-          draggable: true,
-          swipe: true,
-          swipeToSlide: true,
-          touchMove: true,
         },
       },
       {
@@ -265,10 +221,6 @@ export const sliderProps = {
         settings: {
           arrows: false,
           slidesToShow: 3,
-          draggable: true,
-          swipe: true,
-          swipeToSlide: true,
-          touchMove: true,
         },
       },
       {
@@ -276,10 +228,6 @@ export const sliderProps = {
         settings: {
           arrows: false,
           slidesToShow: 1,
-          draggable: true,
-          swipe: true,
-          swipeToSlide: true,
-          touchMove: true,
         },
       },
     ],
@@ -292,10 +240,6 @@ export const sliderProps = {
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    draggable: true,
-    swipe: true,
-    swipeToSlide: true,
-    touchMove: true,
     responsive: [
       {
         breakpoint: 992,
