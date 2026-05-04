@@ -223,7 +223,10 @@ const Service = () => {
           <i className="flaticon-plant" />
           Why Choose Us
         </span>
-        <h2>We Help Lawn Care Businesses Go Digital</h2>
+        <h2>
+  We Help Lawn Care <br />
+  Businesses Go Digital
+</h2>
       </div>
     </div>
     <div className="col-lg-6">
