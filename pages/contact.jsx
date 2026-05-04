@@ -184,7 +184,7 @@ const Contact = () => {
                     Need Any Consultations to Build Gardening ?
                   </h4>
                   <Link legacyBehavior href="/contact">
-                    <a className="main-btn golden-btn">Get a Quote</a>
+                    <a className="main-btn secondary-btn">Get a Quote</a>
                   </Link>
                 </div>
               </div>
@@ -206,7 +206,7 @@ const Contact = () => {
                     Get Every Single Update Or 24/7 Support
                   </h4>
                   <Link legacyBehavior href="/contact">
-                    <a className="main-btn golden-btn">Support &amp; Join</a>
+                    <a className="main-btn secondary-btn">Support &amp; Join</a>
                   </Link>
                 </div>
               </div>

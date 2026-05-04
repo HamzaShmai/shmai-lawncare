@@ -82,17 +82,12 @@ const Footer3 = () => {
                         <Link href="/service">Popular Services</Link>
                       </li>
                       <li>
-                        <Link href="/portfolio">Need a Career?</Link>
+                        <Link href="/portfolio">Our Portfolio</Link>
                       </li>
                       <li>
                         <Link href="/contact">Get a Quote</Link>
                       </li>
-                      <li>
-                        <Link href="/privacy-policy">Privacy Policy</Link>
-                      </li>
-                      <li>
-                        <Link href="/terms-and-conditions">Terms and Conditions</Link>
-                      </li>
+                    
                     </ul>
                   </div>
                 </div>

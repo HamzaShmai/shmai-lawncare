@@ -172,7 +172,7 @@ const Index3 = () => {
               </div>
               <div className="experience-box-two">
                 <h2 className="number">
-                  <Counter end={4} />+
+                  <Counter end={15} />+
                 </h2>
                 <h6>Years Of Experience</h6>
                 <Link legacyBehavior href="/about">
@@ -374,11 +374,11 @@ const Index3 = () => {
               alt="Image"
             />
           </div>
-          <div className="text">
+          <div className="text hyu">
             <div className="icon">
               <i className="flaticon-landscape-1" />
             </div>
-            <h5 className="title">Get Found on Google</h5>
+            <h5 className="title">Google Reach</h5>
             <p>Appear at the top when customers search for lawn mowing near you and beat local competitors.</p>
           </div>
         </div>
@@ -394,7 +394,7 @@ const Index3 = () => {
               alt="Image"
             />
           </div>
-          <div className="text">
+          <div className="text hyu">
             <div className="icon">
               <i className="flaticon-watering-can" />
             </div>
@@ -414,11 +414,11 @@ const Index3 = () => {
               alt="Image"
             />
           </div>
-          <div className="text">
+          <div className="text hyu">
             <div className="icon">
               <i className="flaticon-lawnmower" />
             </div>
-            <h5 className="title">Showcase Your Work</h5>
+            <h5 className="title">Work Showcase</h5>
             <p>Display before/after photos of lawns and gardens to build trust and win more customers.</p>
           </div>
         </div>
@@ -434,7 +434,7 @@ const Index3 = () => {
               alt="Image"
             />
           </div>
-          <div className="text">
+          <div className="text hyu">
             <div className="icon">
               <i className="flaticon-spider-plant" />
             </div>
@@ -552,7 +552,7 @@ const Index3 = () => {
                 {/*====== CTA Button ======*/}
                 <div className="cta-button float-lg-right mb-40 wow fadeInRight">
                   <Link legacyBehavior href="/portfolio">
-                    <a className="main-btn golden-btn">View Our Work</a>
+                    <a className="main-btn secondary-btn">View Our Work</a>
                   </Link>
                 </div>
               </div>

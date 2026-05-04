@@ -294,7 +294,7 @@ const About = () => {
             Get a professional website that brings more customers to your lawn mowing and landscaping business. Start growing online today!
           </p>
           <Link legacyBehavior href="/contact">
-            <a className="main-btn golden-btn">Get a Free Quote</a>
+            <a className="main-btn secondary-btn">Get a Free Quote</a>
           </Link>
         </div>
       </div>
@@ -309,7 +309,7 @@ const About = () => {
 </section>
       {/*====== End CTA Section  ======*/}
       {/*====== Start Testimonial Section  ======*/}
-      <section className="testimonial-section pt-100 pb-100">
+      <section className="testimonial-section pt-100 ">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-xl-6 col-lg-12">

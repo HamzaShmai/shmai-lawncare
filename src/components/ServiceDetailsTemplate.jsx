@@ -139,7 +139,7 @@ const ServiceDetailsTemplate = ({ service, services }) => {
           </div>
           <div className="row">
             <div className="col-lg-12">
-              <div className="post-navigation pt-60 pb-60 border-top-1 wow fadeInDown">
+              <div className="post-navigation pt-40  border-top-1 wow fadeInDown">
                 <div className="row">
                   <div className="col-md-6">
                     <div className="navigation-item prev-post mb-40">

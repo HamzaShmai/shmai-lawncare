@@ -45,6 +45,38 @@
 .sidebar-widget-area .widget-newsletter .sidebar-content .form_control::-moz-placeholder {
   color: #0B3D2C;
 }
+/* Force drag on desktop */
+.slick-slider .slick-track {
+  cursor: grab !important;
+  cursor: -moz-grab !important;
+  cursor: -webkit-grab !important;
+}
+
+.slick-slider .slick-track:active {
+  cursor: grabbing !important;
+  cursor: -moz-grabbing !important;
+  cursor: -webkit-grabbing !important;
+}
+
+/* Ensure pointer events are enabled */
+.slick-slider,
+.slick-list,
+.slick-track {
+  pointer-events: auto !important;
+}
+
+/* Disable text selection while dragging */
+.slick-slider.dragging .slick-track {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
+
+.hyu{
+  border: 2px solid #2a7d2e24;
+}
+.single-blog-post-three{
+  border: 2px solid #2a7d2e24;
+}
 .single-testimonial-item .testimonial-inner-content .author-thumb-title {
   padding: 15px 20px;
   border-radius: 7px;
@@ -235,7 +267,7 @@ h1 {
 .single-testimonial-item-three .testimonial-inner-content ul.ratings li i,
 .social-box ul.social-link li a:hover,
 .text-white .sub-title {
-  color: #F1D2A9;
+  color: #fff;
 }
 
 .sidebar-panel-wrapper .sidebar-wrapper .sidebar-information-area .sidebar-info-widget .social-item ul.social-link li a,
@@ -998,7 +1030,7 @@ button {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  text-decoration: underline;
+  text-decoration: auto;
 }
 
 .btn-link i {
@@ -2507,7 +2539,7 @@ button {
 .page-title-area {
   position: relative;
   z-index: 1;
-  padding-top: 225px;
+  padding-top: 105px;
 }
 
 @media (max-width: 767px) {
@@ -2554,7 +2586,7 @@ button {
 }
 
 .page-title-area .gd-breadcrumb span.breadcrumb-entry.active {
-  text-decoration: underline;
+  text-decoration: auto;
 }
 
 .page-title-area .gd-breadcrumb span.separator {
@@ -4255,7 +4287,7 @@ ul.check-style-one li i {
 }
 
 .service-info-wrapper>p {
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 }
 
 .service-info-wrapper ul.check-style-one li i {

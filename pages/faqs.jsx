@@ -137,7 +137,7 @@ const Faqs = () => {
                     Need Expert Consultations to Build Your Garden?
                   </h4>
                   <Link legacyBehavior href="/contact">
-                    <a className="main-btn golden-btn">Get a Quote</a>
+                    <a className="main-btn secondary-btn">Get a Quote</a>
                   </Link>
                 </div>
               </div>
@@ -158,7 +158,7 @@ const Faqs = () => {
                     Get Every Single Update With 24/7 Customer Support
                   </h4>
                   <Link legacyBehavior href="/contact">
-                    <a className="main-btn golden-btn">Support & Join</a>
+                    <a className="main-btn secondary-btn">Support & Join</a>
                   </Link>
                 </div>
               </div>
