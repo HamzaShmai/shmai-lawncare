@@ -879,7 +879,7 @@ const Index3 = () => {
               />
               <h6>
                 <span>By</span>
-                <Link legacyBehavior href="/blog/how-to-get-more-lawn-care-customers-online">
+                <Link legacyBehavior href="/blog-details">
                   <a>Michael</a>
                 </Link>
               </h6>
@@ -902,18 +902,18 @@ const Index3 = () => {
           <div className="entry-content">
             <div className="post-meta">
               <span className="date">
-                <Link legacyBehavior href="/blog/why-your-lawn-business-needs-online-booking">
+                <Link legacyBehavior href="/blog-details">
                   <a>05 February 2024</a>
                 </Link>
               </span>
               <span className="comment">
-                <Link legacyBehavior href="/blog/why-your-lawn-business-needs-online-booking">
+                <Link legacyBehavior href="/blog-details">
                   <a>8 Comments</a>
                 </Link>
               </span>
             </div>
             <h4 className="entry-title">
-              <Link legacyBehavior href="/blog/why-your-lawn-business-needs-online-booking">
+              <Link legacyBehavior href="/blog-details">
                 <a>Why Your Lawn Business Needs Online Booking</a>
               </Link>
             </h4>
@@ -924,7 +924,7 @@ const Index3 = () => {
               />
               <h6>
                 <span>By</span>
-                <Link legacyBehavior href="/blog/why-your-lawn-business-needs-online-booking">
+                <Link legacyBehavior href="/blog-details">
                   <a>Sarah</a>
                 </Link>
               </h6>
@@ -947,18 +947,18 @@ const Index3 = () => {
           <div className="entry-content">
             <div className="post-meta">
               <span className="date">
-                <Link legacyBehavior href="/blog/top-seo-tips-for-lawn-mowing-companies">
+                <Link legacyBehavior href="/blog-details">
                   <a>20 March 2024</a>
                 </Link>
               </span>
               <span className="comment">
-                <Link legacyBehavior href="/blog/top-seo-tips-for-lawn-mowing-companies">
+                <Link legacyBehavior href="/blog-details">
                   <a>15 Comments</a>
                 </Link>
               </span>
             </div>
             <h4 className="entry-title">
-              <Link legacyBehavior href="/blog/top-seo-tips-for-lawn-mowing-companies">
+              <Link legacyBehavior href="/blog-details">
                 <a>Top SEO Tips for Lawn Mowing Companies</a>
               </Link>
             </h4>
@@ -969,7 +969,7 @@ const Index3 = () => {
               />
               <h6>
                 <span>By</span>
-                <Link legacyBehavior href="/blog/top-seo-tips-for-lawn-mowing-companies">
+                <Link legacyBehavior href="/blog-details">
                   <a>David</a>
                 </Link>
               </h6>
