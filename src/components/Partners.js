@@ -11,7 +11,7 @@ const Partners = () => {
     speed: 500,
     autoplay: true,
     autoplaySpeed: 2000,
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     draggable: true,
     swipe: true,
@@ -25,6 +25,7 @@ const Partners = () => {
         settings: {
           slidesToShow: 4,
           draggable: true,
+          autoplay: true,
           swipe: true,
         },
       },
@@ -34,6 +35,8 @@ const Partners = () => {
           slidesToShow: 3,
           draggable: true,
           swipe: true,
+          draggable: true,
+
         },
       },
       {
